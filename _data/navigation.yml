@@ -8,7 +8,7 @@
 main:
   # Home
   - title: "Home"
-    url: "index/"
+    url: "index"
     parent: 0
     #childs:
     #    - title: "Home 1"
