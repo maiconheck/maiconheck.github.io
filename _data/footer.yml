@@ -1,0 +1,16 @@
+# Footer configuration file
+##
+### param "social" - Social Links, icon class name you can find here https://ionicons.com/v2/
+### param "copy" - Copyright text
+
+main:
+  social:
+    - title: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/maiconheck"
+    - title: "Linkedin"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/maiconheck"
+    - title: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/maiconheck_"

@@ -1,0 +1,434 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Started [ started ]
+started:
+  title: "Maicon <br />Heck"
+  typed:
+    - "Software Design & Architecture"
+    - "Software Craftsmanship"
+    - "Domain-Driven Design"
+    - "Design Patterns & Principles"
+    - ".NET"
+  text: "Hello! <br/> I'm a software crafter with 16 years of experience. I work as an independent contractor.<br/><br/> 
+         Through DDD, <mark>I carefully crafted dozens of rich, extensible, testable, and long-lived business domain models, which along with other principles, patterns, and practices led to delivering high quality software products.</mark><br/> 
+         And I can help you company to get the same results."
+  button:
+    text: "Contact Me"
+    link: "#section-contacts"
+
+### About [ about ]
+about:
+  title: "About Me"
+  subtitle: "My story"
+  text: "
+  <p>
+  I have 16 years of experience with software development in .NET technology. Over this time, I worked with almost all the .NET technology stack, 
+  following their evolution, from the Windows Forms, WPF, ASP.net Web Forms / MVC / Web Services / WCF, until the more recent and currently Razor Pages, Blazor WASM, and REST Web APIs with .NET Core.
+  </p>
+  <p>
+
+  Besides C# and .NET, I have a solid knowledge of Domain-Driven Design (DDD), Software Architecture, Design Patterns, OOP, Defensive Programming, Automated Tests, Refactoring, and Clean Code.
+  </p>
+  
+  <p>
+  As a software architect and engineer, for the past 5 years, I have focused my career on studying and implementing Modern Web Apps with Clean Architecture, 
+  CQRS, and Domain-Driven Design in both microservices and modular monoliths architectural styles.
+  </p>
+  
+  <p>
+  As a tech lead, besides my job of crafting a reliable architecture, I implement the CI pipeline to ensure that the features are produced with the same quality level throughout the project lifecycle.
+  </p>
+  
+  <p>
+  Last, but not least, I provide mentorship to each developer, helping them with their daily basis technical challenges, doing code review, 
+  giving advice, and sharing knowledge to help them to improve their hard and soft skills.<br /> I also spread the culture of software craftsmanship to encourage professionalism, 
+  technical excellence, and customer satisfaction.
+  </p>
+  
+  <p>
+  I’m an active <a href='https://github.com/maiconheck' target='blank'>OSS (open-source software) contributor</a>, 
+  author of the <a href='https://maiconheck.github.io/krafted' target='blank'>Krafted</a>, and organizer of the <a href='https://www.meetup.com/pt-BR/Software-Craftsmanship-Lisbon/' target='blank'>Software Craftsmanship Lisbon</a>.
+  </p>
+  "
+  list:
+    - label: "Linkedin"
+      value: "<a href='https://linkedin.com/in/maiconheck'>Reach me on LinkedIn</a>"
+
+    - label: "GitHub"
+      value: "<a href='https://github.com/maiconheck'>Follow me on GitHub<a/>"
+
+    - label: "Skype"
+      value: "<a href='https://join.skype.com/invite/HGFrILzC5eQ9' target='blank'>DM me on skype</a>"
+
+    - label: "E-mail"
+      value: "<a href='mailto:maicon@maiconheck.io'>maicon@maiconheck.io</a>"
+
+    - label: "Residence"
+      value: "Brazil"    
+
+    - label: "Address"
+      value: "Porto Alegre, RS"
+
+### SoftwareProjects [ softwareprojects ]
+softwareprojects:  
+  title: "Poor-quality software is thrown money away"
+  subtitle: "Poor quality software will result in losing customers, damaging reputation, and reduced revenue"
+  summary: "A plethora of projects <u>struggles to evolve</u> and are <u>delivered with poor quality</u>, plenty <u>can't adapt quickly enough to the market demands</u>, and some <u>totally fail even before getting launched!</u><br /><br />
+            <b>In my experience, the main reasons are:</b><br />
+            Over-engineer, weak architecture, poor code quality, anemic domain models, ad-hoc code designs, shallow/naive tests, bad user experience,
+            lack of code quality automation and lack of technical mentorship.<br /><br />
+            
+            <mark>That's a sad truth because software projects are expensive</mark>, then <u>companies invest a lot of money motivated by the ROI that a software is suposed to bring them, throught revenue incresement, cost saving or both.</u>
+            <mark>Therefore is our job to deliver that benefits to our customers in the best possible way.</mark><br /><br />
+            
+            <mark>I know, developing software is hard, and developing first-class software is harder!<br /> But it's possible, I've had done it many times, and I can help your team do it too.</mark>
+            "
+
+### Services [ services ]
+services:
+  title: "Skills"
+  subtitle: "What I Do"
+  items:
+    - icon: "fas fa-shapes"
+      name: "Domain-Driven Design"
+      text: "<mark>After years honey my skills and working with DDD to many customers in different fields, I can guarantee you: DDD is not easy, but it pays off a lot.</mark><br /><br />
+             <mark>DDD brings remarkable benefits to many line-of-business software.</mark><br /> Just to mention the main ones:<br /><br />
+             <b>1.</b> The developers gain a deep knowledge of the business, thus they can meet the real needs of that business;<br /><br />
+             <b>2.</b> Once skilled with DDD's strategic and tactical patterns, the developers can implement rich, extensible, testable, and long-lived business domain models.<br /><br />
+             <b>3.</b> There is no translation between domain experts, software developers, and the software because the team develops a common, shared language that all team members speak;<br /><br />
+             <b>4.</b> Domain experts contribute to software design;<br /><br />
+             <b>5.</b> Enterprise architecture is better organized;<br />
+      "
+
+    - icon: "fas fa-hands-helping"
+      name: "Tech Lead"
+      text: "<mark>As Tech Lead, my main job is:</mark> <br /><br />
+      <b>1.</b> Ensure that every piece of code is crafted with care and quality.<br /><br />
+      <b>2.</b> Ensure that the code base quality metrics are healthy, and will remain so throughout the project lifecycle.<br /><br />
+      <b>3.</b> Provide training to developers to update their knowledge regarding the patterns, principles, practices, and technology stack required for the project.<br /><br />
+      <b>4.</b> Help the developers with their daily basis technical challenges, giving advice, sharing knowledge, and doing code reviews to help them improve their hard and soft skills.<br /><br />
+      "
+
+    - icon: "fas fa-bullseye"
+      name: "Application Architecture"
+      text: "A well-designed architecture based on a reliable style is a critical point to the success of a project.<br /><br />
+             Over the years, I've had great results with the Clean Architecture.<br /><br />
+             Besides the architectural style, I used to implement the CQRS pattern [Commands with EF Core and Queries with Dapper] which provides these key benefits:<br /><br />
+             • A task-based interface, which significant improves the user experience;<br /><br />
+             • Keeps the domain model much cleaner as it eliminates the responsibility to provide queries through the model;<br /><br />
+             • Significantly increases scalability and performance;<br /><br />
+             Besides the goals your company aims to accomplish with the product, I also assess other requirements like scalability, independent deployment, and data isolation which leads me to propose either Microservices Architecture or Modular Monolith Architecture."
+
+    - icon: "fas fa-puzzle-piece"
+      name: "Design Patterns & Principles"
+      text: "<mark>To avoid reinvent the wheel, and to guarantee that we are using the battle-tested and documented solutions for the recurrent problems that others already had, whenever necessary, I implement the long-stabelished Design Patterns</mark> from [Gamma et al.], [Fowler, P of EAA], as also from [Evans] and [Vernon] when we are working with DDD.<br /><br />
+             <mark>There are some principles that I use in every project because I consider them fundamental:</mark><br />
+             • DRY (Don’t Repeat Yourself)<br />
+             • YAGNI (You aren’t gonna need it)<br />
+             • KISS (Keep It Simple Stupid)<br />
+             • Defensive Programming (e.g. Guard clauses, Fail Fast)<br />
+             • Explicit Dependencies (e.g. Well-defined public interface<br />
+             • Encapsulation<br />
+             • Low coupling / High cohesion<br />
+             • Separation of Concerns<br />
+             • The Boy Scout Rule
+      "
+
+    - icon: "fas fa-stream"
+      name: "CI/CD DevOps pipelines"
+      text: "<mark>To guarantee that the code base quality metrics remain healthy throughout the project lifecycle, <br />I implement two steps of Code Quality Analysis in the CI pipeline, which automatically ensures that each PR compliances with:</mark> <br /><br />
+             <b>•</b> The Code Style, Design, Maintainability, Reliability, Security, and Duplication rules that we set at the beginning of the project.<br /><br />
+             <b>•</b> The Unit, Integration, and E2E Tests passing, and also that the required Code Coverage Metric is reached.<br /><br />
+             <mark>This approach is powerful as it prevents non-compliant code from being merged into the main branch.<mark>
+      "
+
+    - icon: "fas fa-check-circle"
+      name: "Automated Tests"
+      text: "<mark>A good suite of unit, integration, and e2e tests provides 3 essential guarantees that every serious project needs:</mark><br /><br />
+             • The code is working as supposed to;<br /><br />
+             • We can change the code to accomplish the business changes, without the risk of breaking it;<br /><br />
+             • We can constantly improve the code through refactoring, without the risk of breaking it;<br /><br />
+             <mark>But just writing tests isn't enough, in fact, writing tests randomly and without measurement is pointless. Thus, I follow this approach:</mark><br /><br />
+             • From the beginning of the project, I set a coverage threshold into the CI to ensure that once a percentage of coverage is reached, that percentage remains, and as the coverage grows, I update the threshold to match it.<br /><br />
+             <mark>That's essential because it ensures that every new PR pushed contains its respective tests.<br /> Otherwise, the coverage decreases to almost 0% as the code base increases over time.</mark><br /><br />
+             <mark>I also focus on testing the code that matters, excluding auto-generated and boilerplate code from the coverage.</mark>
+      "
+
+### Pricing [ pricing ]
+pricing:
+  title: "Pricing"
+  subtitle: "My Plans"
+  items:
+    - icon: "fas fa-star"
+      name: "Basic"
+      price: "39"
+      price_before: "$"
+      price_after: "hour"
+      list:
+        - value: "Web Development"
+          disable: "no"
+        - value: "Advetising"
+          disable: "no"
+        - value: "Game Development"
+          disable: "no"
+        - value: "Music Writing"
+          disable: "yes"
+        - value: "Photography"
+          disable: "yes"
+      button: "Buy Now"
+      link: "#section-contacts"
+
+    - icon: "fas fa-rocket"
+      name: "Premium"
+      price: "59"
+      price_before: "$"
+      price_after: "hour"
+      list:
+        - value: "Web Development"
+          disable: "no"
+        - value: "Advetising"
+          disable: "no"
+        - value: "Game Development"
+          disable: "no"
+        - value: "Music Writing"
+          disable: "no"
+        - value: "Photography"
+          disable: "no"
+      button: "Buy Now"
+      link: "#section-contacts"
+
+    - icon: "fas fa-space-shuttle"
+      name: "Ultimate"
+      price: "79"
+      price_before: "$"
+      price_after: "hour"
+      list:
+        - value: "Web Development"
+          disable: "no"
+        - value: "Advetising"
+          disable: "no"
+        - value: "Game Development"
+          disable: "no"
+        - value: "Music Writing"
+          disable: "no"
+        - value: "Photography & Video"
+          disable: "no"
+      button: "Buy Now"
+      link: "#section-contacts"
+
+### Resume [ resume ]
+resume:
+  experience:
+    title: "Experience"
+    subtitle: "Working with"
+    items:
+      - year: "Present"
+        name: "Senior Software Engineer <br/>at KCSIT"
+        text: "I designed and developed an API Gateway for <a href='https://edenred.pt' target='blank'>Edenred</a>, 
+               whose goal was to provide a BFF (backend for frontend) to the front-end development team.<br /><br />
+
+               The core features were:<br />
+               • Routing from up-stream to down-stream HTTP requests;<br /><br />
+               • Provides a hook to implement command handlers with custom logic in C#;"
+
+        text_read_more: "Both these features were provided through a configurable mechanism, so for each up-stream HTTP request on the Gateway 
+                        (i.e. a frontend client calling), we had a respective down-stream HTTP response, that could be either a down-stream URL 
+                        (i.e. a microservice endpoint) or a command handler with a custom C# implementation.<br /><br />
+                        Besides the core features, the API Gateway also offers:<br />
+                        • Caching<br />
+                        • Logging<br />
+                        • Security<br />"
+      
+      - year: "Present"
+        name: "Tech Lead / Software Architect <br/>at KCSIT"
+        text: "I worked as architect and tech lead on an enterprise application portal to the <a href='https://www.sonaesierra.com' target='blank'>Sonae Sierra</a>, whose goal is a digital
+               transformation through leveraging the communication between centres and tenants, simplifying some internal processes, improving the communication
+               between the administration of the Shopping Centres and the Stores, and delivering more value through custom services to stores/brands, to leverage
+               their business and brand value."
+        text_read_more: "Our solution consists of the following stack:<br /><br />
+               In the front-end, we have a SPA application (single-page application) for the desktop;<br /><br />
+               In the back-end:<br />
+               • I developed an Identity Provider (IdP) middleware, designed as a microservice, powered by Identity Server4 [OAuth2+OpenID Connect]<br /><br />
+               
+               This middleware is responsible for Identity and Access Management (IAM) tasks, such as:<br />
+               • Safely storing account-related information in a central location and reuse across applications;
+               • User registration and user management;<br />
+               • Password policies, strength, resets, and 2FA;<br />
+               • Single sign-on (SSO) and single logout;<br /><br />
+               
+               I designed the back-end solution through the Clean Architecture (a.k.a. Onion or Ports and Adapters)<br />
+               • I implemented CQRS [Commands with EF Core and Queries with Dapper] which provides these key benefits:<br />
+               • A task-based interface, which greatly improves the user experience;<br />
+               • Keeps the domain model much cleaner as it eliminates the responsibility to provide queries through the model;<br />
+               • Significantly increases scalability and performance;<br /><br />
+               At the heart of the software, our domain model lives, containing all the knowledge and business rules, expressed through the ubiquitous language that we are refining with each iteration.<br />
+               To achieve that, we are using DDD extensively, and I'm disseminating knowledge about the DDD building blocks."
+
+      - year: "Present"
+        name: "Tech Lead / Software Architect <br/>at KCSIT"
+        text: "I worked as architect and tech lead on a <a href='https://store.surprise.pt' target='blank'>Gift Card e-Commerce</a> to the <a href='https://www.sonaesierra.com' target='blank'>Sonae Sierra</a><br /><br />
+               This project was a great challenge, as our deadline was very short, only 2 months and a few days! And that date was not negotiable, 
+               as to deliver after that, would mean losing Black Friday sales."
+        text_read_more: "Despite this, we were successful: In addition to reaching the deadline, we deliver the product on time and with good quality!<br /><br />
+               I had to choose a simple (but powerful) stack: ASP.net Core Razor Pages and EF Core. No SPA (single-page application), so no REST API for the client, which saves a ton of time!<br /><br />
+               
+               Despite the short term, I decided to keep the unit tests, code analyzers, and the most important part of the DDD, that is, creating a rich domain through good OOP modeling with Aggregates /
+               Entities and ValueObjects and BoundedContexts well designed
+               - as the model is quite simple, this was not a problem. Also, giving up good OOP modeling will never (believe me) make a project go faster. In fact, it will do the opposite.<br /><br />
+               
+               I designed the architecture through a subset of the Clean Architecture (a.k.a. Onion / Ports and Adapters) and implemented a message queue to process orders through Azure Storage Queue and Azure WebJobs.<br /><br />
+
+               We integrate with IfThenPay for MBWay and Multibanco for payment methods and with CTT and YouShip for delivery.<br /><br />
+
+               Of course, none of this would be possible if we were not fully committed to success - A great team = Great results!"
+
+      - year: "Present"
+        name: ".NET Senior Software Engineer<br/>at KCSIT"
+        text: "I developed a Bot to automate the firmware configuration of hundreds of printers at <a href='https://www.bancobpi.pt' target='blank'>BPI bank</a>, using C# with SpecFlow.
+               And I got the following result: Configuration of 500 printers in 1 hour (average)."
+        text_read_more: ""
+
+      - year: "2016-2019"
+        name: ".NET Senior Software Engineer <br/>at CWI"
+        text: "• I worked in an ERP created as SPA (single-page application) for an auction company called <a href='https://www.leiloes.com.br' target='blank'>Pestana Leilões</a>.<br /><br />
+               In this project, we used ASP.net Core, DDD, Vue.js, CI/CD, and CQRS with NHibernate and Dapper, enforcing domain rules with Design by Contracts and Specification Pattern.
+               I'm using some of the main building blocks of DDD as well as Design Patterns as needed."
+        text_read_more: "• I worked on a RESTful API project for a clinical laboratory called <a href='http://www.fleury.com.br' target='blank'>Fleury</a> whose goal is to migrate mostly legacy code
+                         base processes to a new, more maintainable, and extensible stack.<br /><br />
+                         
+                         I developed this project using ASP.NET Core and Dapper, enforcing rules in
+                         the domain with Design by Contracts, and handling errors with Domain Notification.<br />
+                         Implemented Roslyn diagnostic analyzers with StyleCop, FxCop, Roslynator, and so on to ensure code quality.<br /><br />
+  
+                         • I worked on an ERP created as SPA (single-page application) project for a real estate agency called <a href='https://www.auxiliadorapredial.com.br' target='blank'>Auxiliadora Predial</a>.<br />
+                         In this project, we use ASP.NET Core, Dapper, DDD, Angular, and CI/CD.<br /><br />
+
+                         • I worked in a CRM created as SPA (single-page application) for a bank called <a href='https://www.agibank.com.br' target='blank'>Agibank</a> whose goal was to optimize
+                         the process of qualification and consumption of leads for the sales team. Developing using ASP.net Core, EF Core, DDD, Microservice Architecture, Angular 4 with Angular Material, and CI/CD.<br /><br />
+                         
+                         • I worked in an e-Commerce created as ASP.net MVC for a company called <a href='https://www.frigelar.com.br' target='blank'>Frigelar</a>.
+                         Developing using ASP.NET MVC, DDD, NHibernate, Redis, BDD, and CI.<br /><br />
+          
+                         Also, in all the above projects:<br />
+                         • Developed Unit and Integration Tests to guarantee the expected results.<br />
+                         • Responsible for defining backlog priorities together with Scrum Master and PO.<br />
+                         • Working through an agile culture, doing the ceremonies of Scrum determined by the Scrum Master with the Team."
+
+      - year: "2014-2016"
+        name: ".NET Software Developer <br/>at KPMG"
+        text: "I've worked in the development of several projects for different segments, including:<br /> 
+               Project Management, Tax, Supplier Management, Help Desk, and
+               Ticket, using Windows Forms, ASP.NET WebForms / MVC / WebServices, WebApi, and AngularJS."
+        text_read_more: ""
+
+      - year: "2013-2014"
+        name: ".NET Software Developer<br/>at GOFI"
+        text: "Developing new systems according to the needs of the company and improving existing products (Refactoring) and processes (Source Control).<br/><br/>
+
+               I developed a system of Sales Monitoring Panel (ABC curve) - with Google Maps, where managers can view sales at the points (Lat., Long.) where they occur, 
+               using filters to refine the queries, thus delivering practical, visual, and useful sales information for them."
+        text_read_more: ""
+
+      - year: "2012-2012"
+        name: "Assistant Professor <br/>at SETREM"
+        text: "Teaching the technical content of the course Commercial Programming II for the 5th. Semester of the Bachelor's degree in Information Systems,
+               whose course plan was developed under Microsoft.NET technology."
+        text_read_more: ""
+
+      - year: "2007-2010"
+        name: ".NET Software Developer <br/>at Comsoli Software"
+        text: "I have developed several custom projects for clients and component libraries, using WindowsForms, ASP.net WebForms, and WebServices.<br /><br />
+        Development and hosting of institutional sites and modules for <a href='https://www.dnnsoftware.com' target='blank'>DotNetNuke</a>.<br /><br />
+
+        I developed a library to digitally sign Electronic Tax Invoices (NF-e) and an EndPoint for 
+        communication with <a href='https://receita.fazenda.rs.gov.br/lista/2933/nf-e-(nota-fiscal-eletronica)'>NF-e Sefaz WebServices</a>"
+        text_read_more: ""
+
+### Skills [ skills ]
+skills:
+  columns:    
+    - type: "dotted" #skills progress type - default, dotted, circles
+      title: "Language Skills"
+      subtitle: "Reading, writing and speaking"
+      slug: "lang"
+      items:
+        - label: "English"
+          value: "60" #0-100 progress in %
+          text: "Speaker."
+
+        - label: "Portuguese"
+          value: "100" #0-100 progress in %
+          text: "Native speaker."
+
+### Testimonials [ testimonials ]
+testimonials:
+  title: "Reviews"
+  subtitle: "What coworkers say"
+  items:
+    - image: "assets/img/testimonials/igor.png"
+      name: "Igor Felix"
+      role: "R&D"
+      text: "Maicon é um excelente profissional, muito bem qualificado e sempre atualizado com as tecnologias.<br />
+             Estamos trabalhando juntos a aproximadamente 1 ano, sempre com dedicação e comprometimento total com os projetos.<br />
+             Acabamos de entregar um projeto de grande relevância para empresa com sucesso total.
+             Um profissional sempre preocupado em entregar um produto de qualidade."
+
+    - image: "assets/img/testimonials/andreia.png"
+      name: "Andreia Belchior da Silva"
+      role: "Unit Manager | Delivery IT Services"
+      text: "Maicon is an excelent profissional, focused on delivery and quality, solutions oriented and highly motivated, with great communication skills.<br />
+             He is one of the most responsible, team working, client value driven professionals i know, and recommend in these areas!"
+
+    - image: "assets/img/testimonials/allan.png"
+      name: "Allan Cassiano Weber"
+      role: "Senior Software Engineer"
+      text: "I've worked with Maicon for a short time at Agibank, but this was a really enjoyable time with him, not only because of the great person and the friendship but also because of the incredible professional he is.<br />
+             He is really a craftsman in software engineer, he has a huge knowledge of design patterns, best practices, clean code and so on.<br />
+             Besides the conceptual skills, he has expertise in .NET platform, and I've learned a lot with him while out time together."
+
+    - image: "assets/img/testimonials/ronaldo.png"
+      name: "Ronaldo Lisot"
+      role: "Senior Software Engineer"
+      text: "Maicon is an excellent professional. Extremely committed, he has great experience in software development.<br />
+             As a differential, he is always looking for the best architectural design before coding.<br />
+             He builds the trust of the teams he works for and code software features quickly."
+
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client2.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client3.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client1.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client4.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client2.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client3.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client1.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "assets/img/clients/client4.png"
+
+### Portfolio [ portfolio ]
+#items generates from dir /_works/*
+portfolio:
+  title: "Portfolio"
+  subtitle: "Latest works"
+
+### Contact [ contacts ]
+contacts:
+  title: "Contact"
+  subtitle: "Let's talk"
+  
