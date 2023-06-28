@@ -133,7 +133,7 @@ body {
 	.wrapper {
 		position: relative;
 		margin-top: 0;
-		margin-left: 0;
+		margin-left: 0 !important;
 		margin-right: 0;
 	}
 	.wrapper:before {
@@ -213,7 +213,7 @@ h6 {
 	margin: 0;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	color: #141414;
+	color: #fff;
 }
 
 h1 {
@@ -573,7 +573,7 @@ code {
 	vertical-align: middle;
 	overflow: auto;
 	max-width: 100%;
-	white-space: nowrap;
+	white-space: pre-wrap;
 }
 
 pre {
@@ -729,6 +729,11 @@ dd {
 	font-weight: 400 !important;
 }
 
+.text-strong {
+	font-weight: 600;
+    font-size: medium;
+}
+
 .text-bold {
 	font-weight: 700 !important;
 }
@@ -741,6 +746,23 @@ dd {
 blockquote {
 	font-family: $default_font;
 }
+
+/* - Figure */
+.blog figure figcaption {
+	text-align: left;
+	font-size: 12px;
+}
+
+/* - Horizontal Rule */
+.blog hr {
+	border: none;
+  }
+  hr::before {
+	content: "•\00a0\00a0\00a0\00a0•\00a0\00a0\00a0\00a0•";
+	display: block;
+	text-align: center;
+	font-size: 15px;
+  }
 
 /* - Animations */
 
