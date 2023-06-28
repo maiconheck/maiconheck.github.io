@@ -19,7 +19,7 @@ In the end, I think it's clear why it's critical to forget about the ER model wh
 If you haven't read it, start there, because this article is a continuation of the previous one:
 
 {:.text-strong}
-[PART 2: Entities and Value Objects](../../../10/08/domain-driven-design-the-building-blocks-part2/)
+[PART 2: Entities and Value Objects](../../../../2018/10/08/domain-driven-design-the-building-blocks-part2/)
 
 I already talked about the difference between Domain and Domain Model here. If you don't remember, reread this part now, because this should be clear for us to proceed with the understanding of the next items.
 
