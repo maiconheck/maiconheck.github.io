@@ -396,31 +396,6 @@ testimonials:
              As a differential, he is always looking for the best architectural design before coding.<br />
              He builds the trust of the teams he works for and code software features quickly."
 
-
-    - url: "https://www.bslthemes.site"
-      image: "assets/img/clients/client2.png"
-
-    - url: "https://www.bslthemes.site"
-      image: "assets/img/clients/client3.png"
-
-    - url: "https://www.bslthemes.site"
-      image: "assets/img/clients/client1.png"
-
-    - url: "https://www.bslthemes.site"
-      image: "assets/img/clients/client4.png"
-
-    - url: "https://www.bslthemes.site"
-      image: "assets/img/clients/client2.png"
-
-    - url: "https://www.bslthemes.site"
-      image: "assets/img/clients/client3.png"
-
-    - url: "https://www.bslthemes.site"
-      image: "assets/img/clients/client1.png"
-
-    - url: "https://www.bslthemes.site"
-      image: "assets/img/clients/client4.png"
-
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
 portfolio:
