@@ -14,7 +14,7 @@ started:
     - ".NET"
   text: "Hello! <br/> I'm a software crafter with 16 years of experience. I work as an independent contractor.<br/><br/> 
          Through DDD, <mark>I carefully crafted dozens of rich, extensible, testable, and long-lived business domain models, which along with other principles, patterns, and practices led to delivering high quality software products.</mark><br/> 
-         And I can help you company to get the same results."
+         And I can help your company to get the same results."
   button:
     text: "Contact Me"
     link: "#section-contacts"
@@ -25,7 +25,7 @@ about:
   subtitle: "My story"
   text: "
   <p>
-  I have 16 years of experience with software development in .NET technology. Over this time, I worked with almost all the .NET technology stack, 
+  I have 17 years of experience with software development in .NET technology. Over this time, I worked with almost all the .NET technology stack, 
   following their evolution, from the Windows Forms, WPF, ASP.net Web Forms / MVC / Web Services / WCF, until the more recent and currently Razor Pages, Blazor WASM, and REST Web APIs with .NET Core.
   </p>
   <p>
