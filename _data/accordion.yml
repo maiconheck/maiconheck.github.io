@@ -1,0 +1,248 @@
+accordion:    
+  - icon: "fas fa-search"
+    title: "Diagnóstico de Qualidade do Código, Arquitetura e Testes <span class='badge ms-2'><i class='fas fa-gift'></i> Gratuito</span>"
+    callToActionTitle: "Quero uma análise da qualidade do meu produto. É grátis!"
+    content: >
+        <h5>Eu realizo uma análise detalhada da qualidade da sua base de código, arquitetura e testes para <mark>identificar problemas críticos</mark> que comprometem a confiança, capacidade de manutenção e segurança do seu software.</h5>
+        <h6 class='fs-1rem fw-500'>
+          Um diagnóstico claro é o <mark>primeiro passo para transformar sua base de código em um ativo sustentável, seguro e de alta qualidade.</mark>
+        </h6>
+        <h5>Eu vou analisar, identificar e propor as soluções para:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Bugs e vulnerabilidades;</li>
+          <li><i class='fas fa-chevron-right'></i> Problemas de confiabilidade, manutenibilidade, design, segurança e performance;</li>
+          <li><i class='fas fa-chevron-right'></i> Falta de legibilidade e expressividade no código;</li>
+          <li><i class='fas fa-chevron-right'></i> Ausência ou insuficiência dos testes;</li>
+          <li><i class='fas fa-chevron-right'></i> Falta de estilo e formatação consistente com o style guideline oficial do C#;</li>
+          <li><i class='fas fa-chevron-right'></i> Problemas arquiteturais, como falta de encapsulamento, modularidade e dependências excessivas;</li>
+          <li><i class='fas fa-chevron-right'></i> Violações dos princípios de design (SOLID, DRY, YAGNI, KISS, POLA, SoC e LoD);</li>
+          <li><i class='fas fa-chevron-right'></i> Violações às boas práticas (Programação defensiva, Dependências explícitas, Código morto, Complexidade ciclomática alta, Uso de antipadrões, Mau uso de exceções, Acoplamento rígido);</li>
+        </ul>
+        <h5>Como eu faço isso:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Analiso o código com mais de <b>700 analisadores estáticos</b>, identificando problemas de confiabilidade, manutenibilidade, segurança, performance, design, estilo e formatação;</li>
+          <li><i class='fas fa-chevron-right'></i> Avalio a cobertura real dos testes automatizados (quando presentes), identificando lacunas e o nível de profundidade;</li>
+          <li><i class='fas fa-chevron-right'></i> Examino a arquitetura do sistema, verificando modularidade, encapsulamento e alinhamento com estilos e princípios arquiteturais modernos como <b>Clean Architecture</b> e <b>Screaming Architecture</b>;</li>
+          <li><i class='fas fa-chevron-right'></i> Realizo uma análise detalhada dos fluxos de controle para detectar complexidade excessiva e identificar oportunidades de simplificação;</li>
+          <li><i class='fas fa-chevron-right'></i> Identifico violações de princípios de design e boas práticas e proponho correções;</li>
+          <li><i class='fas fa-chevron-right'></i> Realizo uma apresentação demonstrando detalhadamente os problemas encontrados, priorizados de acordo com sua severidade e impacto no projeto;</li>
+          <li><i class='fas fa-chevron-right'></i> Forneço um plano de ação estratégico para corrigir os problemas.</li>
+        </ul>
+        <div class='alert alert-success my-3'>
+          <i class='fas fa-gift'></i> <span>Este serviço é <b>100% gratuito</b> para novos clientes. Aproveite agora e conheça as oportunidades de melhorar significativamente a sua base de código, arquitetura e testes!</span>
+        </div>        
+
+  - icon: "fas fa-check-circle"
+    title: "Automação de Testes"
+    callToActionTitle: "Quero a confiança de uma suíte de testes automatizados!"
+    content: >
+      <h5>Eu implemento uma suíte completa de Testes Automatizados que <mark>oferece três benefícios essenciais</mark> para projetos que buscam qualidade e confiança:</h5>
+      <ul class='my-0'>
+        <li><i class='fas fa-chevron-right'></i> Garante que o código funciona como esperado e continuará funcionando;</li>
+        <li><i class='fas fa-chevron-right'></i> Permite mudanças sem introduzir novos bugs;</li>
+        <li><i class='fas fa-chevron-right'></i> Facilita melhorias contínuas sem comprometer a estabilidade.</li>
+      </ul>
+      <h5>Como eu faço isso:</h5>
+      <ul class='my-0'>
+        <li><i class='fas fa-chevron-right'></i> Testes completos e abrangentes, cobrindo toda a API pública e exercitando cada branch relevante do código;</li>
+        <li><i class='fas fa-chevron-right'></i> Validando tanto o comportamento quanto o contrato das classes e métodos;</li>
+        <li><i class='fas fa-chevron-right'></i> Focando no que realmente agrega valor, excluindo código boilerplate e gerado automaticamente;</li>
+        <li><i class='fas fa-chevron-right'></i> Integrados ao pipeline de CI, garantindo que a cobertura cresça de forma consistente e nunca diminua;</li>
+        <li><i class='fas fa-chevron-right'></i> Utilizando as métricas de cobertura corretamente: Line, Branch e Method coverage alinhadas para refletir a cobertura real;</li>
+        <li><i class='fas fa-chevron-right'></i> Adotando as melhores práticas: Pirâmide de Testes (unitários, integração e end-to-end), princípios F.I.R.S.T (Fast, Independent, Repeatable, Self-Validating, Timely), o padrão AAA e a estratégia de nomenclatura de Roy Osherove.</li>
+      </ul>
+  
+  - icon: "fas fa-puzzle-piece"
+    title: "Refatoração para Clean Code"
+    callToActionTitle: "Quero acelerar entregas e reduzir custos!"    
+    content: >
+        <h5>
+          Eu transformo a base de código em um ativo sustentável que <mark>impulsiona o crescimento do seu negócio</mark>:
+        </h5>
+        <h6 class='fs-1rem fw-500'>
+          Uma base de código limpa é o motor do desenvolvimento ágil,<br/> <mark>reduz os custos de manutenção e acelera a entrega de funcionalidades</mark>.
+        </h6>
+        <h5>
+          Seu código se tornará:
+        </h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Claro e expressivo;</li>
+          <li><i class='fas fa-chevron-right'></i> Fácil de entender, modificar e expandir;</li>
+          <li><i class='fas fa-chevron-right'></i> Protegido contra a introdução de novos bugs;</li>
+          <li><i class='fas fa-chevron-right'></i> Consistente com as regras de qualidade e estilo definidas.</li>
+        </ul>
+        <h5>Como eu faço isso:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Reduzindo de dependências desnecessárias entre componentes, promovendo <b>baixo acoplamento</b> e tornando o código mais <b>flexível a mudanças e fácil de testar</b>;</li>
+          <li><i class='fas fa-chevron-right'></i> Separando de responsabilidades e organização em módulos coesos (princípios de <b>Alta Coesão</b> e <b>Single Responsibility</b>);</li>
+          <li><i class='fas fa-chevron-right'></i> Transformando de classes monolíticas em componentes menores, utilizando <b>abstrações</b> e interfaces para aumentar a extensibilidade (princípios de <b>Open/Closed</b> e <b>Dependency Inversion</b>);</li>
+          <li><i class='fas fa-chevron-right'></i> Reduzindo do tamanho de métodos e classes, garantindo que cada um tenha <b>uma única responsabilidade</b> (princípio de <b>Single Responsibility</b>) e aplicando a <b>segregação entre comandos e consultas</b> (<b>CQS - Command Query Segregation</b>);</li>
+          <li><i class='fas fa-chevron-right'></i> Definindo de nomes claros e significativos para variáveis, classes e métodos, garantindo <b>clareza e expressividade</b> no código;</li>
+          <li><i class='fas fa-chevron-right'></i> Eliminando de código duplicado, removendo redundâncias e aplicando boas práticas de reutilização;</li>
+          <li><i class='fas fa-chevron-right'></i> Organizando do código para evitar interfaces excessivamente grandes, criando <b>interfaces menores e específicas</b> (princípio de <b>Interface Segregation</b>);</li>
+          <li><i class='fas fa-chevron-right'></i> Aplicando de estilo e formatação consistente com o style guideline oficial do C#, garantindo <b>clareza e legibilidade</b> em toda a base de código;</li>
+          <li><i class='fas fa-chevron-right'></i> Implementando Programação Defensiva com <b>Guard Clauses</b> e <b>Fail Fast</b>, prevenindo erros em tempo de execução e acelerando a identificação de falhas;</li>
+          <li><i class='fas fa-chevron-right'></i> Substituindo de código ad-hoc por soluções baseadas em <b>Design Patterns</b> e <b>Design Principles</b>;</li>
+          <li><i class='fas fa-chevron-right'></i> Identificando e corrigindo de <b>Code Smells</b> que comprometem a qualidade e a performance do código;</li>
+          <li><i class='fas fa-chevron-right'></i> Automatizando a análise de qualidade com ferramentas de análise estática, garantindo <b>consistência</b> e <b>qualidade contínua</b> do código;</li>
+          <li><i class='fas fa-chevron-right'></i> Integrando a análise de qualidade ao pipeline de CI, assegurando que as regras de qualidade sejam aplicadas de forma <b>persistente</b> em toda a base de código.</li>              
+        </ul>
+
+  - icon: "fas fa-layer-group"
+    title: "Modernização da Arquitetura de Software"
+    callToActionTitle: "Quero uma arquitetura moderna e escalável!"
+    content: >
+        <h5>Eu modernizo sua arquitetura de software para torná-la <mark>escalável, evolutiva e preparada para o futuro</mark>.</h5>
+        <h6 class='fs-1rem fw-500'>
+          Uma arquitetura bem projetada e baseada em um estilo confiável 
+          <mark>reduz custos, acelera mudanças e suporta o crescimento do seu negócio</mark>.
+        </h6>
+        <h5>Com a Modernização da Arquitetura, sua solução se tornará:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> <b>Escalável</b>, para atender ao crescimento e demandas do negócio;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Modular</b>, permitindo mudanças rápidas e seguras, com impacto minimizado;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Resiliente</b>, preparada para lidar com falhas e manter alta disponibilidade;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Clara e bem organizada</b>, promovendo alinhamento entre equipes técnicas e objetivos estratégicos;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Sustentável a longo prazo</b>, com baixo custo de manutenção e alta eficiência.</li>
+        </ul>
+        <h5>Como eu faço isso:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Reestruturando os módulos para promover <b>alta coesão</b> e <b>baixo acoplamento</b>, facilitando a manutenção e evolução do sistema;</li>
+          <li><i class='fas fa-chevron-right'></i> Adotando princípios de <b>Screaming Architecture</b> e o estilo <b>Clean Architecture</b> para organizar camadas, responsabilidades e refletir claramente os módulos do sistema;</li>
+          <li><i class='fas fa-chevron-right'></i> Implementando, quando apropriado, o estilo <b>Modular Monolith</b>, maximizando <b>modularidade, produtividade e simplicidade</b>;</li>
+          <li><i class='fas fa-chevron-right'></i> Aplicando <b>CQRS</b> para criar APIs baseadas em tarefas, aumentando expressividade, escalabilidade e experiência do usuário;</li>
+          <li><i class='fas fa-chevron-right'></i> Modernizando APIs e integrações com sistemas de terceiros, garantindo eficiência, disponibilidade e segurança, além de incorporar <b>Problem Details</b> para padronizar erros e fornecer respostas padronizadas;</li>
+          <li><i class='fas fa-chevron-right'></i> Integrando práticas de <b>observabilidade</b>, como <b>logs estruturados</b> e <b>métricas de performance</b>, para monitorar o sistema, identificar gargalos e garantir sua saúde contínua;</li>
+          <li><i class='fas fa-chevron-right'></i> Realizando a <b>migração gradual para .NET Core</b>, quando aplicável, mantendo a compatibilidade com .NET Framework, minimizando riscos e garantindo continuidade operacional.</li>
+        </ul>
+
+  - icon: "fas fa-shapes"
+    title: "Refatoração para Domain-Driven Design (DDD)"
+    callToActionTitle: "Quero ter vantagem estratégica e competitiva no meu software!"
+    content: >
+        <h5>
+          Eu ajudo o seu time a criar modelos de domínio ricos, escaláveis e duradouros, que <mark>organizam a complexidade e refletem com precisão o domínio do seu negócio.</mark>
+        </h5>
+        <h6 class='fs-1rem fw-500'>
+          Com DDD, sua base de código não apenas acompanha as mudanças do negócio, mas se torna <mark>literalmente um ativo estratégico para o crescimento da sua organização num mercado cada vez mais competitivo.</mark>
+        </h6>
+        <h5><mark>DDD da forma certa, traz benefícios exepcionais!</mark>:</h5>
+        <ul class='my-0'>
+          <li>
+            <i class='fas fa-chevron-right'></i> <b>Alinhado ao Negócio</b>: 
+            Com DDD, a barreira técnica entre desenvolvedores e especialistas de negócio é eliminada - eles colaboram juntos através de uma linguagem comum que ambos entendem; Consequentemente, os desenvolvedores ganham um profundo conhecimento do negócio, e implementam esse conhecimento através software que reflete com precisão as necessidades reais da sua empresa.
+          </li>
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Conhecimento compartilhado</b>: Transmite o conhecimento profundo dos especialistas do negócio para os desenvolvedores, 
+            capacitando-os para resolver de forma eficiente e eficaz as necessidades reais do negócio;
+          </li>
+                    
+          <li><i class='fas fa-chevron-right'></i> <b></b>: Graças ao vínculo entre o modelo e a implementação, os desenvolvedores podem falar na linguagem do software ao comunicarem-se com os especialistas do domínio sem ter que traduzir a mensagem;</li>
+          
+          <li><i class='fas fa-chevron-right'></i> <b>Modelagem e implementação andam juntas</b>: O design é o código, e o código é o design. O design é como funciona;</li>
+                            
+          <li>
+            <i class='fas fa-chevron-right'></i><b>Melhoria contínua</b>: 
+            Uma definição e um entendimento refinado do negócio são desenvolvidos, e cada interação entre especialistas do negócio e desenvolvedores, faz com que o modelo fique vez mais rico e expressivo, 
+            fazendo com que o time ganhe cada vez mais insight sobre o domínio, e que esse conhecimento seja transferido para o modelo (para o código, especificamente na camada de domínio) através dos patterns do DDD;
+          </li>
+          
+          <li><i class='fas fa-chevron-right'></i><b>Agnóstico</b>: DDD nos leva a construir softwares guiados pelo conhecimento e modelagem do negócio antes de qualquer apelo por tecnologia;</li>
+                    
+          <li><i class='fas fa-chevron-right'></i> <b>Valor potencializado</b>: Construir software guiado pelo domínio, nos leva a atender as necessidades reais do negócio;</li>
+          
+          <li><i class='fas fa-chevron-right'></i>Especialistas de domínio contribuem para o design do software;</li>
+          
+          <li><i class='fas fa-chevron-right'></i> <b>Organização e escalabilidade</b>: Limites claros são colocados ao redor de modelos bem definidos;</li>
+
+          <li><i class='fas fa-chevron-right'></i>Todos aprendem: Ninguém conhece cada detalhe do domínio. DDD é um processo de aprendizado onde todos aprendem continuamente porque todos contribuem;</li>
+
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Colaboração eficaz</b>: Não há tradução entre especialistas de domínio, desenvolvedores de software e o software porque o time desenvolve uma linguagem comum e compartilhada, que todos os membros do time falam;
+          </li>
+
+          <li><i class='fas fa-chevron-right'></i> <b>Arquitetura melhora</b>: A arquitetura empresarial fica mais organizada;</li>
+          
+          <li><i class='fas fa-chevron-right'></i> <b></b>: O modelo serve como algo comum e palpável a todos os membros do time, que, junto com a linguagem ubíqua, permite que todos possam participar ativamente da construção progressiva do mesmo;</li>
+          <li><i class='fas fa-chevron-right'></i> <b></b>O modelo é evolutivo: A cada iteração entre especialistas de domínio e a equipe técnica, o modelo se torna mais profundo e expressivo, mais rico, e os desenvolvedores transferem essa fonte de valor para o software;</li>
+          <li><i class='fas fa-chevron-right'></i> <b></b>: o modelo vai sendo gradualmente enriquecido com o expertise dos especialistas do domínio destilado pelos desenvolvedores, fazendo com que o time ganhe cada vez mais insight sobre o negócio e que esse conhecimento seja transferido para o modelo (para o código) através dos blocos de construção do DDD;</li>
+          <li><i class='fas fa-chevron-right'></i> <b></b>: o modelo (que em última instância será o software) vai expressar com riqueza de conhecimento o negócio;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Modelo rico em conhecimento</b>: Composto de código expressivo, regras de negócio e processos bem definidos, ele expressa o conhecimento nele contido e resolve problemas do domínio;</li>
+          <li><i class='fas fa-chevron-right'></i> <b></b>:  Perceba o papel dos Bounded Contexts, criando uma fronteira conceitual que delimita o contexto da Linguagem Ubíqua;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Software guiado pelo domínio</b>: Soluções que capturam e refletem as reais necessidades do negócio;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Colaboração eficaz</b>: Times técnicos e especialistas compartilham uma linguagem comum, eliminando traduções e ambiguidades;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Conhecimento destilado</b>: Todo o aprendizado do time é transformado em um modelo rico e evolutivo, garantindo consistência;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Arquitetura bem organizada</b>: Bounded Contexts e Subdomínios delimitam responsabilidades, promovendo escalabilidade e evitando Big Ball of Mud;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Modelos ricos e testáveis</b>: Código expressivo e alinhado ao domínio, com alta coesão e preparado para mudanças rápidas e seguras;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Agilidade e segurança</b>: Mudanças rápidas e consistentes, com modelos ricos que garantem confiabilidade;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Conhecimento compartilhado</b>: O conhecimento do domínio não fica retido em uma "tribo", mas se torna acessível e replicável para toda a equipe;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Simplificação da complexidade</b>: Modelos que abstraem os problemas do domínio, permitindo foco no que realmente importa;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Valor contínuo</b>: Uma base de código que evolui com o negócio, entregando resultados consistentes ao longo do tempo.</li>
+                    
+          <li><i class='fas fa-chevron-right'></i> <b></b>: ;</li>
+        </ul>
+        <h5>Como eu faço isso:</h5>
+        <ul class='my-0'>
+          <li>
+            <i class='fas fa-chevron-right'></i>
+            Vincular o modelo com a implementação: esse vínculo é feito desde o início, quando o modelo ainda é primitivo e será mantido até o fim. Esse vínculo é profundo, a implementação deve refletir 100% o modelo.
+          </li>
+          <li>
+            <i class='fas fa-chevron-right'></i>
+            Cultivar uma linguagem baseada no modelo: no início será necessário que os desenvolvedores e os domain experts entendam cada um os termos do outro, mas depois ambos falarão a mesma linguagem, organizando as sentenças da comunicação numa estrutura consistente com o modelo e sem ambiguidades.
+          </li>
+          <li>
+            <i class='fas fa-chevron-right'></i>
+            Desenvolver um modelo rico em conhecimento: objetos têm dados e comportamentos associados. O modelo não deve ser apenas uma estrutura de dados (modelo anêmico), ele deve capturar o conhecimento do domínio para resolver os problemas do domínio.
+          </li>
+          <li>
+            <i class='fas fa-chevron-right'></i>
+            Destilar o modelo: o modelo deve ser refinado. Assim como conceitos importantes devem ser adicionados, conceitos que não tem relevância devem ser removidos. A cada iteração o modelo ficará mais rico e terá mais valor.
+          </li>
+          <li>
+            <i class='fas fa-chevron-right'></i>
+            Brainstorming e experimentação: a interação direta entre os desenvolvedores e domain experts, através de brainstormings e diagramas feitos na hora, transformam as discussões em laboratórios do modelo, no qual diversas variações de experimentos podem ser exercitadas e o resultado pode ser usado se mostrar valor ou descartado caso contrário.
+          </li>
+          <li>
+            <i class='fas fa-chevron-right'></i>
+          </li>
+          <li>
+            <i class='fas fa-chevron-right'></i>
+          </li>
+          
+
+
+
+          <li><i class='fas fa-chevron-right'></i> <b>Workshops colaborativos</b>: Facilito a criação de uma linguagem ubíqua e mapeio fluxos críticos usando Event Storming e brainstorming iterativo;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Delimitação de Subdomínios</b>: Organizo o domínio em Subdomínios e Bounded Contexts para separar responsabilidades e promover alinhamento arquitetural;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Modelagem rica</b>: Estruturo Entidades, Value Objects e Aggregates, encapsulando regras de negócio diretamente no modelo, evitando modelos anêmicos;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Iteração e refinamento</b>: Refino o modelo continuamente, eliminando redundâncias e garantindo alinhamento contínuo com o negócio;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Arquitetura evolutiva</b>: Adoto práticas que preparam o sistema para crescimento sustentável e adaptações futuras sem retrabalho;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Documentação e exemplos práticos</b>: Forneço orientações claras e exemplos de código que facilitam a implementação dos Building Blocks do DDD.</li>
+        </ul>
+
+  - icon: "fas fa-hands-helping"
+    title: "Mentoria e Capacitação Técnica"
+    callToActionTitle: "Quero evoluir minha equipe técnica!"
+    content: >
+        <h5>Eu ajudo sua equipe a crescer técnica e profissionalmente, combinando <mark>mentoria estratégica</mark> e <mark>capacitação prática</mark>.</h5>
+        <h6 class='fs-1rem fw-500'>
+          Com minha experiência como Tech Lead, oriento desenvolvedores para resolver desafios técnicos imediatos enquanto os preparo para o crescimento contínuo, <mark>transformando o time e o código</mark>.
+        </h6>
+        <h5>O que está incluso:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> <b>Mentoria estratégica</b>: Orientação para desenvolver habilidades técnicas e comportamentais, ajudar desenvolvedores a crescerem em suas carreiras e melhorar sua visão de projeto;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Capacitação prática</b>: Treinamento direto e no fluxo de trabalho, focado em padrões, princípios, boas práticas e resolução de problemas específicos;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Garantia de qualidade</b>: Revisões de código, orientação em refatorações e estratégias para manter a base de código saudável ao longo do ciclo de vida do projeto;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Alinhamento técnico</b>: Atualização da equipe em relação às tecnologias, frameworks e práticas necessárias para o projeto;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Suporte contínuo</b>: Ajuda em desafios técnicos diários, promovendo aprendizado constante enquanto resolvemos problemas reais.</li>
+        </ul>
+        <h5>Resultados esperados:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Equipe técnica mais capacitada e confiante, com habilidades alinhadas às necessidades do projeto;</li>
+          <li><i class='fas fa-chevron-right'></i> Base de código consistente, coesa e de alta qualidade;</li>
+          <li><i class='fas fa-chevron-right'></i> Desenvolvedores preparados para assumir responsabilidades maiores e tomar decisões técnicas informadas;</li>
+          <li><i class='fas fa-chevron-right'></i> Maior produtividade, menos retrabalho e melhor alinhamento entre time e objetivos do projeto.</li>
+        </ul>

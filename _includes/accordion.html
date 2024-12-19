@@ -1,0 +1,18 @@
+<div class="accordion" id="servicesAccordion">
+    {% for item in site.data.accordion.accordion %}
+    <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false" aria-controls="content{{ forloop.index }}">
+            <span></span>
+            <span>
+                <i class="accordion-left-icon mr-1 {{ item.icon }}"></i>
+                {{ item.title }}
+            </span>
+            <span class="accordion-icon">+</span>
+        </button>
+        <div id="content{{ forloop.index }}" class="accordion-content" aria-hidden="true">
+            {{ item.content }}
+            {%- include call-to-action.html text=item.callToActionTitle -%}
+        </div>
+    </div>
+    {% endfor %}
+</div>

@@ -46,7 +46,10 @@
 			$('.typed-subtitle').each(function(){
 				$(this).typed({
 					stringsElement: $(this).prev('.typing-subtitle'),
-					loop: true
+					loop: true,
+					typeSpeed: 30,
+					backSpeed: 0,
+					backDelay: 2500
 				});
 			});
 		}
@@ -265,7 +268,7 @@
 	*/
 	$('.section').on('click', '.mouse-btn', function(){
 		$('body, html').animate({
-			scrollTop: height - 150
+			scrollTop: height
 		}, 800);
 	});
 	if($('.section').length>1){

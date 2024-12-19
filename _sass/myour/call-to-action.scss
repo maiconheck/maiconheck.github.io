@@ -1,0 +1,25 @@
+.btn-call-to-action {
+	$btn_color: #02d46bec;
+	font-size: 19px !important;
+	font-weight: 700;
+	background: $btn_color;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+	text-transform: none;
+
+	i {
+		font-size: xx-large;
+		margin-right: 8px;
+	}			
+	@media (max-width: 1920px) {
+		font-size: 16px;
+		height: 55px;
+	}
+	&:hover {		
+		background: darken($btn_color, 7%);
+	}
+}

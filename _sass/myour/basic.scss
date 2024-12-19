@@ -114,7 +114,7 @@ body {
 .wrapper {
 	position: relative;
 	margin-top: 50px;
-	margin-left: 45%;
+	margin-left: 44%;
 	margin-right: 92px;
 }
 
@@ -212,7 +212,7 @@ h6 {
 	font-family: $default_font;
 	margin: 0;
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	color: #fff;
 }
 
@@ -237,7 +237,7 @@ h5 {
 }
 
 h6 {
-	font-size: $small_size;
+	font-size: $default_size;
 }
 
 p {
@@ -248,6 +248,12 @@ p {
 
 strong {
 	font-weight: 700;
+}
+
+@media screen and (max-width: 1550px) {
+	h4 {
+		font-size: 20px;
+	}
 }
 
 @media screen and (max-width: 720px) {
@@ -712,35 +718,6 @@ dd {
 	vertical-align: middle !important;
 }
 
-/* - Text Formating */
-.text-uppercase {
-	text-transform: uppercase !important;
-}
-
-.text-lowercase {
-	text-transform: lowercase !important;
-}
-
-.text-capitalize {
-	text-transform: capitalize !important;
-}
-
-.text-regular {
-	font-weight: 400 !important;
-}
-
-.text-strong {
-	font-weight: 600;
-    font-size: medium;
-}
-
-.text-bold {
-	font-weight: 700 !important;
-}
-
-.text-italic {
-	font-style: italic !important;
-}
 
 /* - Blockquote */
 blockquote {

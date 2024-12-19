@@ -9,7 +9,7 @@ settings:
 ### Header
 header:
   logo:
-    text: "Maicon <br />Heck"
+    text: "Maicon Heck"
     alt: "Maicon Heck"
 
 ### Portfolio Filters Settings
