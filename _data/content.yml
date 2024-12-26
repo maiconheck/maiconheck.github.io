@@ -19,11 +19,15 @@ started:
               <strong><mark><i class='fas fa-check-circle'></i> Confiável:</mark></strong> Com uma suite completa de Testes Automatizados, e técnicas rebustas de Programação Defensiva, <span class='text-grammar-error'>defeitos são drasticamente reduzidos</span>;
             </li>
             <li>
-              <strong><mark><i class='fas fa-puzzle-piece'></i> Fácil de Manter:</mark></strong> Com técnicas de Refatoração e Princípios / Padrões de Design, <span class='text-grammar-error'>modificar ou ampliar as funcionalidades existentes</span>, para acompanhar as demandas do seu negócio, <span class='text-grammar-error'>deixa de ser um trabalho doloroso e demorado</span>;
+              <strong><mark><i class='fas fa-puzzle-piece'></i> Fácil de Manter:</mark></strong> Com técnicas de Refatoração e Princípios/Padrões de Design certos, <span class='text-grammar-error'>modificar ou ampliar as funcionalidades existentes</span>, para acompanhar as demandas do seu negócio, <span class='text-grammar-error'>deixa de ser um trabalho doloroso e demorado</span>;
             </li>
             <li>
-              <strong><mark><i class='fas fa-bullseye'></i> Alinhado ao Negócio:</mark></strong> Com DDD, a barreira técnica entre desenvolvedores e especialistas de negócio é eliminada - eles colaboram juntos através de uma linguagem comum que ambos entendem; 
-              Consequentemente, os <span class='text-grammar-error'>desenvolvedores ganham um profundo conhecimento do negócio, e implementam esse conhecimento através software que reflete com precisão as necessidades reais da sua empresa.</span>
+              <strong><mark><i class='fas fa-bullseye'></i> Relevante e Competitivo:</mark></strong>
+              Com DDD, seu software se torna <span class='text-grammar-error'>um ativo estratégico para o crescimento da sua organização</span>.<br/>
+              <div>
+                Ao <span class='text-grammar-error'>eliminar a barreira técnica</span> entre desenvolvedores e especialistas de negócio, eles passam a colaborar juntos para criar modelos de domínio ricos, escaláveis e duradouros, 
+                que <span class='text-grammar-error'>refletem com precisão o domínio do seu negócio, organizam a complexidade e facilitam a evolução contínua</span>.
+              </div>
             </li>
          </ul>
         "
@@ -127,7 +131,7 @@ softwareprojects:
               <ul class='my-0'>
                 <li><i class='fas fa-check-circle'></i> Confiável</li>
                 <li><i class='fas fa-puzzle-piece'></i> Fácil de manter</li>
-                <li><i class='fas fa-bullseye'></i> Alinhado às demandas do negócio</li>
+                <li><i class='fas fa-bullseye'></i> Relevante e competitivo</li>
               </ul>
             </p>
            "
@@ -137,22 +141,6 @@ services:
   title: "Serviços"
   subtitle: "O que eu faço"
   items:
-    - icon: "fas fa-hands-helping"
-      name: "Tech Lead"
-      text: "<mark>As Tech Lead, my main job is:</mark> <br /><br />
-      <b>1.</b> Ensure that every piece of code is crafted with care and quality.<br /><br />
-      <b>2.</b> Ensure that the code base quality metrics are healthy, and will remain so throughout the project lifecycle.<br /><br />
-      <b>3.</b> Provide training to developers to update their knowledge regarding the patterns, principles, practices, and technology stack required for the project.<br /><br />
-      <b>4.</b> Help the developers with their daily basis technical challenges, giving advice, sharing knowledge, and doing code reviews to help them improve their hard and soft skills.<br /><br />
-      "
-
-    - icon: "fas fa-stream"
-      name: "CI/CD DevOps pipelines"
-      text: "<mark>To guarantee that the code base quality metrics remain healthy throughout the project lifecycle, <br />I implement two steps of Code Quality Analysis in the CI pipeline, which automatically ensures that each PR compliances with:</mark> <br /><br />
-             <b>•</b> The Code Style, Design, Maintainability, Reliability, Security, and Duplication rules that we set at the beginning of the project.<br /><br />
-             <b>•</b> The Unit, Integration, and E2E Tests passing, and also that the required Code Coverage Metric is reached.<br /><br />
-             <mark>This approach is powerful as it prevents non-compliant code from being merged into the main branch.<mark>
-      "    
 
 ### Pricing [ pricing ]
 pricing:

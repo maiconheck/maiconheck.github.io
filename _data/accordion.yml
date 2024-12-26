@@ -30,7 +30,7 @@ accordion:
         </ul>
         <div class='alert alert-success my-3'>
           <i class='fas fa-gift'></i> <span>Este serviço é <b>100% gratuito</b> para novos clientes. Aproveite agora e conheça as oportunidades de melhorar significativamente a sua base de código, arquitetura e testes!</span>
-        </div>        
+        </div>
 
   - icon: "fas fa-check-circle"
     title: "Automação de Testes"
@@ -121,128 +121,136 @@ accordion:
     callToActionTitle: "Quero ter vantagem estratégica e competitiva no meu software!"
     content: >
         <h5>
-          Eu ajudo o seu time a criar modelos de domínio ricos, escaláveis e duradouros, que <mark>organizam a complexidade e refletem com precisão o domínio do seu negócio.</mark>
+          Eu ajudo a transformar o seu software num <mark>ativo estratégico, para a sua organização se destacar num mercado cada vez mais competitivo</mark>.
         </h5>
-        <h6 class='fs-1rem fw-500'>
-          Com DDD, sua base de código não apenas acompanha as mudanças do negócio, mas se torna <mark>literalmente um ativo estratégico para o crescimento da sua organização num mercado cada vez mais competitivo.</mark>
-        </h6>
-        <h5><mark>DDD da forma certa, traz benefícios exepcionais!</mark>:</h5>
+        <h5>DDD da forma certa, traz <mark>benefícios incomparáveis!</mark>:</h5>
         <ul class='my-0'>
-          <li>
-            <i class='fas fa-chevron-right'></i> <b>Alinhado ao Negócio</b>: 
-            Com DDD, a barreira técnica entre desenvolvedores e especialistas de negócio é eliminada - eles colaboram juntos através de uma linguagem comum que ambos entendem; Consequentemente, os desenvolvedores ganham um profundo conhecimento do negócio, e implementam esse conhecimento através software que reflete com precisão as necessidades reais da sua empresa.
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i>
+            <b class='fs-16'>Torna o software cada vez melhor</b>:<br/>
+            <div class='mt-1'>
+              Cada interação entre especialistas de negócio e desenvolvedores torna o modelo mais <b>rico, expressivo e evolutivo</b>, 
+              pois o time ganha cada vez mais conhecimento sobre o domínio, e os desenvolvedores transferem essa fonte de valor para o software através dos <b>Padrões de Design Táticos</b> do DDD;            
+            </div>
           </li>
-          <li>
+          
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i>
+            <b class='fs-16'>Transforma o desenvolvimento em uma prática estratégica e precisa</b>:<br/>
+            <div class='mt-1'>
+              Com ferramentas de modelagem estratégicas e táticas, criamos sistemas que refletem fielmente o modelo mental 
+              dos especialistas de negócio, potencializam o Core Domain, são altamente testáveis, modulares, confiáveis e prontos para atender 
+              às expectativas mais exigentes, como SLAs.
+            </div>
+          </li>
+
+          <li class='mb-2'>
             <i class='fas fa-chevron-right'></i> 
-            <b>Conhecimento compartilhado</b>: Transmite o conhecimento profundo dos especialistas do negócio para os desenvolvedores, 
-            capacitando-os para resolver de forma eficiente e eficaz as necessidades reais do negócio;
+            <b class='fs-16'>Elimina a barreira técnica</b>:<br/>
+            <div class='mt-1'>
+              Transmite o profundo conhecimento dos especialistas de negócio para os desenvolvedores, 
+              capacitando-os para resolver com excelência as necessidades reais do negócio;
+            </div>
           </li>
-                    
-          <li><i class='fas fa-chevron-right'></i> <b></b>: Graças ao vínculo entre o modelo e a implementação, os desenvolvedores podem falar na linguagem do software ao comunicarem-se com os especialistas do domínio sem ter que traduzir a mensagem;</li>
-          
-          <li><i class='fas fa-chevron-right'></i> <b>Modelagem e implementação andam juntas</b>: O design é o código, e o código é o design. O design é como funciona;</li>
-                            
-          <li>
-            <i class='fas fa-chevron-right'></i><b>Melhoria contínua</b>: 
-            Uma definição e um entendimento refinado do negócio são desenvolvidos, e cada interação entre especialistas do negócio e desenvolvedores, faz com que o modelo fique vez mais rico e expressivo, 
-            fazendo com que o time ganhe cada vez mais insight sobre o domínio, e que esse conhecimento seja transferido para o modelo (para o código, especificamente na camada de domínio) através dos patterns do DDD;
+
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i>
+            <b class='fs-16'>Gera colaboração de alto nível</b>:<br/>
+            <div class='mt-1'>
+              Através de uma <b>linguagem compartilhada, sem ambiguidades nem traduções</b>, 
+              desenvolvedores e especialistas de negócio colaboram e aprendem de forma ativa e incremental;            
+            </div>
           </li>
-          
-          <li><i class='fas fa-chevron-right'></i><b>Agnóstico</b>: DDD nos leva a construir softwares guiados pelo conhecimento e modelagem do negócio antes de qualquer apelo por tecnologia;</li>
-                    
-          <li><i class='fas fa-chevron-right'></i> <b>Valor potencializado</b>: Construir software guiado pelo domínio, nos leva a atender as necessidades reais do negócio;</li>
-          
-          <li><i class='fas fa-chevron-right'></i>Especialistas de domínio contribuem para o design do software;</li>
-          
-          <li><i class='fas fa-chevron-right'></i> <b>Organização e escalabilidade</b>: Limites claros são colocados ao redor de modelos bem definidos;</li>
 
-          <li><i class='fas fa-chevron-right'></i>Todos aprendem: Ninguém conhece cada detalhe do domínio. DDD é um processo de aprendizado onde todos aprendem continuamente porque todos contribuem;</li>
-
-          <li>
+          <li class='mb-2'>
             <i class='fas fa-chevron-right'></i> 
-            <b>Colaboração eficaz</b>: Não há tradução entre especialistas de domínio, desenvolvedores de software e o software porque o time desenvolve uma linguagem comum e compartilhada, que todos os membros do time falam;
-          </li>
+            <b class='fs-16'>O conhecimento é amplamente compartilhado</b>:<br/>
+            <div class='mt-1'>
+              O conhecimento do domínio não fica retido em uma "tribo", mas se torna acessível e replicável para toda a equipe;            
+            </div>
+          </li>          
 
-          <li><i class='fas fa-chevron-right'></i> <b>Arquitetura melhora</b>: A arquitetura empresarial fica mais organizada;</li>
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i> 
+            <b class='fs-16'>Organiza a complexidade:</b><br/>
+            <div class='mt-1'>
+              O Domínio é dividido em Subdomínios (Core Domain, Supporting Subdomains e Generic Subdomains).<br/>
+            </div>
+            <div class='mt-2'>
+              Cada <b>Subdomínio</b> contém <b>Modelos de Domínio</b> cuidadosamente implementados e organizados através de <b>Contextos Delimitados</b>, de acordo com a sua respectiva <b>Linguagem Ubíqua</b>.
+            </div>
+          </li>
           
-          <li><i class='fas fa-chevron-right'></i> <b></b>: O modelo serve como algo comum e palpável a todos os membros do time, que, junto com a linguagem ubíqua, permite que todos possam participar ativamente da construção progressiva do mesmo;</li>
-          <li><i class='fas fa-chevron-right'></i> <b></b>O modelo é evolutivo: A cada iteração entre especialistas de domínio e a equipe técnica, o modelo se torna mais profundo e expressivo, mais rico, e os desenvolvedores transferem essa fonte de valor para o software;</li>
-          <li><i class='fas fa-chevron-right'></i> <b></b>: o modelo vai sendo gradualmente enriquecido com o expertise dos especialistas do domínio destilado pelos desenvolvedores, fazendo com que o time ganhe cada vez mais insight sobre o negócio e que esse conhecimento seja transferido para o modelo (para o código) através dos blocos de construção do DDD;</li>
-          <li><i class='fas fa-chevron-right'></i> <b></b>: o modelo (que em última instância será o software) vai expressar com riqueza de conhecimento o negócio;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Modelo rico em conhecimento</b>: Composto de código expressivo, regras de negócio e processos bem definidos, ele expressa o conhecimento nele contido e resolve problemas do domínio;</li>
-          <li><i class='fas fa-chevron-right'></i> <b></b>:  Perceba o papel dos Bounded Contexts, criando uma fronteira conceitual que delimita o contexto da Linguagem Ubíqua;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Software guiado pelo domínio</b>: Soluções que capturam e refletem as reais necessidades do negócio;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Colaboração eficaz</b>: Times técnicos e especialistas compartilham uma linguagem comum, eliminando traduções e ambiguidades;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Conhecimento destilado</b>: Todo o aprendizado do time é transformado em um modelo rico e evolutivo, garantindo consistência;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Arquitetura bem organizada</b>: Bounded Contexts e Subdomínios delimitam responsabilidades, promovendo escalabilidade e evitando Big Ball of Mud;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Modelos ricos e testáveis</b>: Código expressivo e alinhado ao domínio, com alta coesão e preparado para mudanças rápidas e seguras;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Agilidade e segurança</b>: Mudanças rápidas e consistentes, com modelos ricos que garantem confiabilidade;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Conhecimento compartilhado</b>: O conhecimento do domínio não fica retido em uma "tribo", mas se torna acessível e replicável para toda a equipe;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Simplificação da complexidade</b>: Modelos que abstraem os problemas do domínio, permitindo foco no que realmente importa;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Valor contínuo</b>: Uma base de código que evolui com o negócio, entregando resultados consistentes ao longo do tempo.</li>
-                    
-          <li><i class='fas fa-chevron-right'></i> <b></b>: ;</li>
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i> 
+            <b class='fs-16'>Melhora a arquitetura</b>:<br/>
+            <div class='mt-1'>
+              A arquitetura empresarial fica mais organizada, modular e resiliente;
+            </div>
+          </li>
+          
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i> 
+            <b class='fs-16'>Elimina a obsolência e as perdas semânticas na modelagem</b>:<br/>
+            <div class='mt-1'>
+              <b>Sem DDD</b>, vincular a modelagem com a implementação requer modelos abstratos e subjetivos, que naturalmente perdem parte do valor na hora de implementar, e se tornam obsoletos em pouco tempo;<br/>
+            </div>
+            <div class='mt-2'>
+              <b>Com DDD</b>, o modelo é a implementação, ou seja, o modelo é o código, e o código é o modelo!<br/>
+            </div>
+          </li>
         </ul>
         <h5>Como eu faço isso:</h5>
         <ul class='my-0'>
-          <li>
+          <li>            
             <i class='fas fa-chevron-right'></i>
-            Vincular o modelo com a implementação: esse vínculo é feito desde o início, quando o modelo ainda é primitivo e será mantido até o fim. Esse vínculo é profundo, a implementação deve refletir 100% o modelo.
+            <b>Capacitando o time</b>: Realizo um treinamento prático de DDD, estruturado em três partes para capacitar o time a aplicar DDD com confiança e eficácia:
+            <br/>
+            <div class='my-3'>
+              <b>Parte 1 - Fundamentos de DDD:</b> Apresento os conceitos essenciais que formam a base do DDD, como Domínio, Subdomínios (Core, Supporting e Generic Subdomains), Modelos de Domínio, Linguagem Ubíqua, Bounded Contexts, Context Map e Módulos. 
+              Mostro como esses elementos se conectam da descoberta à implementação, resolvendo problemas como modelos anêmicos e complexidade desorganizada, 
+              além de introduzir os principais Patterns Táticos para preparar o terreno da implementação.
+            </div>
+            <div class='mb-3'>
+              <b>Parte 2 - Modelagem Estratégica:</b> Ensino como identificar Subdomínios, incluindo o mais importante: o Core Domain.
+              Apresento os patterns de integração que usaremos para integrar Bounded Contexts, entre eles, Partnership, Customer-Supplier, Conformist, Shared Kernel, Anticorruption Layer e Big Ball Of Mud,
+              explicando como eles influenciam na criação de Context Maps e ajudam a alinhar equipes em torno de limites claros e estratégias eficientes.
+            </div>
+            <div class='mb-3'>
+              <b>Parte 3 - Modelagem Tática:</b> Demonstro como conectar decisões estratégicas à prática por meio da implementação de Aggregates, Entities, Value Objects, Módulos, Domain Events e Repositories. 
+              Esses Tactical Patterns são os alicerces para construir modelos de domínio ricos e expressivos, que encapsulam regras de negócio, garantem invariantes de dados e promovem coesão, assegurando a consistência do sistema. 
+              Exemplos práticos ilustram como aplicá-los de forma eficaz no contexto do seu negócio.
+            </div>
           </li>
-          <li>
-            <i class='fas fa-chevron-right'></i>
-            Cultivar uma linguagem baseada no modelo: no início será necessário que os desenvolvedores e os domain experts entendam cada um os termos do outro, mas depois ambos falarão a mesma linguagem, organizando as sentenças da comunicação numa estrutura consistente com o modelo e sem ambiguidades.
-          </li>
-          <li>
-            <i class='fas fa-chevron-right'></i>
-            Desenvolver um modelo rico em conhecimento: objetos têm dados e comportamentos associados. O modelo não deve ser apenas uma estrutura de dados (modelo anêmico), ele deve capturar o conhecimento do domínio para resolver os problemas do domínio.
-          </li>
-          <li>
-            <i class='fas fa-chevron-right'></i>
-            Destilar o modelo: o modelo deve ser refinado. Assim como conceitos importantes devem ser adicionados, conceitos que não tem relevância devem ser removidos. A cada iteração o modelo ficará mais rico e terá mais valor.
-          </li>
-          <li>
-            <i class='fas fa-chevron-right'></i>
-            Brainstorming e experimentação: a interação direta entre os desenvolvedores e domain experts, através de brainstormings e diagramas feitos na hora, transformam as discussões em laboratórios do modelo, no qual diversas variações de experimentos podem ser exercitadas e o resultado pode ser usado se mostrar valor ou descartado caso contrário.
-          </li>
-          <li>
-            <i class='fas fa-chevron-right'></i>
-          </li>
-          <li>
-            <i class='fas fa-chevron-right'></i>
-          </li>
-          
 
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Facilitando a criação de uma Linguagem Ubíqua</b>: Conduzo workshops colaborativos com especialistas de domínio e desenvolvedores para criar uma Linguagem Ubíqua clara e livre de ambiguidades, 
+            conectando equipes e garantindo colaboração ealinhamento estratégico.
+          </li>
 
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Descobrindo e mapeando Contextos Delimitados</b>: Desenvolvendo diagrama simples (Context Map) que comunica, de forma clara e objetiva, onde estão os limites e as relações entre os contextos e suas equipes, 
+            os tipos de integrações envolvidas e as traduções necessárias entre eles.  
+          </li>
 
-          <li><i class='fas fa-chevron-right'></i> <b>Workshops colaborativos</b>: Facilito a criação de uma linguagem ubíqua e mapeio fluxos críticos usando Event Storming e brainstorming iterativo;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Delimitação de Subdomínios</b>: Organizo o domínio em Subdomínios e Bounded Contexts para separar responsabilidades e promover alinhamento arquitetural;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Modelagem rica</b>: Estruturo Entidades, Value Objects e Aggregates, encapsulando regras de negócio diretamente no modelo, evitando modelos anêmicos;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Iteração e refinamento</b>: Refino o modelo continuamente, eliminando redundâncias e garantindo alinhamento contínuo com o negócio;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Arquitetura evolutiva</b>: Adoto práticas que preparam o sistema para crescimento sustentável e adaptações futuras sem retrabalho;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Documentação e exemplos práticos</b>: Forneço orientações claras e exemplos de código que facilitam a implementação dos Building Blocks do DDD.</li>
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Descobrindo e organizando Subdomínios</b>: Estruturamos Subdomínios e seus Modelos de Domínio através de Contextos Delimitados pela Linguagem Ubíqua, promovendo alta coesão, modularidade e clareza nos limites de responsabilidade.
+          </li>
+
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Promovendo refatorações graduais</b>: Transformo progressivamente código anêmico em modelos de domínio ricos, utilizando os Patterns Táticos do DDD, como Aggregates, Entities, Value Objects, Módulos, Domain Events e Repositories. 
+            Garantimos que cada etapa da refatoração esteja alinhada com a Linguagem Ubíqua e as necessidades reais do negócio.
+          </li>
+
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Dinâmicas Colaborativas e Evolução Contínua</b>: Conduzo sessões práticas de Event Storming para mapear fluxos críticos, conectar especialistas de domínio aos desenvolvedores e garantir que o modelo evolua continuamente, 
+            alinhado às estratégias do negócio e demandas do mercado.
+          </li>
         </ul>
 
-  - icon: "fas fa-hands-helping"
-    title: "Mentoria e Capacitação Técnica"
-    callToActionTitle: "Quero evoluir minha equipe técnica!"
-    content: >
-        <h5>Eu ajudo sua equipe a crescer técnica e profissionalmente, combinando <mark>mentoria estratégica</mark> e <mark>capacitação prática</mark>.</h5>
-        <h6 class='fs-1rem fw-500'>
-          Com minha experiência como Tech Lead, oriento desenvolvedores para resolver desafios técnicos imediatos enquanto os preparo para o crescimento contínuo, <mark>transformando o time e o código</mark>.
-        </h6>
-        <h5>O que está incluso:</h5>
-        <ul class='my-0'>
-          <li><i class='fas fa-chevron-right'></i> <b>Mentoria estratégica</b>: Orientação para desenvolver habilidades técnicas e comportamentais, ajudar desenvolvedores a crescerem em suas carreiras e melhorar sua visão de projeto;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Capacitação prática</b>: Treinamento direto e no fluxo de trabalho, focado em padrões, princípios, boas práticas e resolução de problemas específicos;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Garantia de qualidade</b>: Revisões de código, orientação em refatorações e estratégias para manter a base de código saudável ao longo do ciclo de vida do projeto;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Alinhamento técnico</b>: Atualização da equipe em relação às tecnologias, frameworks e práticas necessárias para o projeto;</li>
-          <li><i class='fas fa-chevron-right'></i> <b>Suporte contínuo</b>: Ajuda em desafios técnicos diários, promovendo aprendizado constante enquanto resolvemos problemas reais.</li>
-        </ul>
-        <h5>Resultados esperados:</h5>
-        <ul class='my-0'>
-          <li><i class='fas fa-chevron-right'></i> Equipe técnica mais capacitada e confiante, com habilidades alinhadas às necessidades do projeto;</li>
-          <li><i class='fas fa-chevron-right'></i> Base de código consistente, coesa e de alta qualidade;</li>
-          <li><i class='fas fa-chevron-right'></i> Desenvolvedores preparados para assumir responsabilidades maiores e tomar decisões técnicas informadas;</li>
-          <li><i class='fas fa-chevron-right'></i> Maior produtividade, menos retrabalho e melhor alinhamento entre time e objetivos do projeto.</li>
-        </ul>
+  
