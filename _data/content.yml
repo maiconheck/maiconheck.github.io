@@ -7,27 +7,28 @@
 started:
   title: "Maicon Heck"
   typed:
-    - "Software Design & Architecture"
     - "Software Craftsmanship"
     - "Domain-Driven Design"
-    - "Design Patterns & Principles"
+    - "Princípios e Padrões de Design"
+    - "Clean Code"
+    - "Automação de Testes"
     - ".NET"
   text: "
-         <h4>Eu ajudo empresas e desenvolvedores, a criar e manter sofware altamente:</h4>
+        <h4 class='mb-4 mt-5'>Eu ajudo empresas e desenvolvedores a transformar software legado em sofware altamente:</h4>
          <ul>
             <li>
-              <strong><mark><i class='fas fa-check-circle'></i> Confiável:</mark></strong> Com uma suite completa de Testes Automatizados, e técnicas rebustas de Programação Defensiva, <span class='text-grammar-error'>defeitos são drasticamente reduzidos</span>;
+              <strong><mark><i class='fas fa-check-circle'></i> Confiável:</mark></strong> 
+              Com uma suíte de Testes Automatizados e técnicas robustas de Programação Defensiva,
+              <span class='text-bold'>eu reduzo drasticamente defeitos, elimino retrabalho e protejo a reputação da sua empresa, garantindo entregas confiáveis que fortalecem sua credibilidade perante os clientes.</span>
             </li>
             <li>
-              <strong><mark><i class='fas fa-puzzle-piece'></i> Fácil de Manter:</mark></strong> Com técnicas de Refatoração e Princípios/Padrões de Design certos, <span class='text-grammar-error'>modificar ou ampliar as funcionalidades existentes</span>, para acompanhar as demandas do seu negócio, <span class='text-grammar-error'>deixa de ser um trabalho doloroso e demorado</span>;
+              <strong><mark><i class='fas fa-puzzle-piece'></i> Fácil de Manter:</mark></strong> 
+              Com as técnicas certas de Refatoração e Princípios/Padrões de Design, <span class='text-bold'>modificar ou expandir funcionalidades se torna ágil e seguro</span>, 
+              permitindo que sua empresa <span class='text-bold'>responda rapidamente às demandas do mercado e acelere resultados.</span>
             </li>
             <li>
               <strong><mark><i class='fas fa-bullseye'></i> Relevante e Competitivo:</mark></strong>
-              Com DDD, seu software se torna <span class='text-grammar-error'>um ativo estratégico para o crescimento da sua organização</span>.<br/>
-              <div>
-                Ao <span class='text-grammar-error'>eliminar a barreira técnica</span> entre desenvolvedores e especialistas de negócio, eles passam a colaborar juntos para criar modelos de domínio ricos, escaláveis e duradouros, 
-                que <span class='text-grammar-error'>refletem com precisão o domínio do seu negócio, organizam a complexidade e facilitam a evolução contínua</span>.
-              </div>
+              Com Domain-Driven Design (DDD), <span class='text-bold'>seu software transforma-se em um ativo estratégico que impulsiona o crescimento, promove inovação e mantém sua empresa competitiva em mercados dinâmicos</span>.
             </li>
          </ul>
         "
@@ -37,50 +38,54 @@ started:
 
 ### About [ about ]
 about:
-  title: "Sobre Mim"
-  subtitle: "Minha jornada em qualidade de software"
+  title: "Quem Sou"
+  subtitle: "17 anos ajudando empresas a superar desafios técnicos e alcançar crescimento sustentável"
   text: "
   <p class='my-3'>
-    Há <strong>17 anos trabalhando com C# e .NET</strong>, com foco em <strong>Domain-Driven Design</strong>, <strong>Clean Code</strong> e <strong>Automação de Testes</strong>, 
-    atuei como <strong>Desenvolvedor</strong>, <strong>Arquiteto de Software</strong> e <strong>Líder Técnico</strong>, atendendo clientes de setores como Contábil, Bancário, Imobiliário, 
-    Varejo, Laboratórios, Benefícios Corporativos, entre outros, no Brasil e em Portugal.
+    Com <strong>17 anos de experiência em C# e .NET</strong>, e foco em <strong>Domain-Driven Design</strong>, <strong>Clean Code</strong> e <strong>Automação de Testes</strong>, 
+    atuei como <strong>Desenvolvedor</strong>, <strong>Arquiteto</strong> e <strong>Líder Técnico</strong>, entregando soluções que unem excelência técnica e resultados concretos.
   </p>
 
   <p class='my-3'>
-    Muitos desses projetos eram sistemas legados, enfrentando problemas críticos que, quando não tratados, tendem a se agravar com o tempo. 
-    Código e arquitetura problemáticos se deterioram cada vez mais, levando ao aumento de bugs e queda na produtividade, até o ponto em que se torna praticamente inviável realizar 
-    manutenção ou evoluir o sistema.
+    Ao longo dessa trajetória, colaborei com empresas dos setores Contábil, Bancário, 
+    Varejo, Laboratórios e Benefícios Corporativos, no Brasil e em Portugal, transformando sistemas legados em soluções robustas e adaptáveis, prontas para inovação e competitividade.
   </p>
 
   <p class='my-3'>
-    O código que deveria ser claro e expressivo, refletindo sem ambiguidades o modelo do negócio, com o passar do tempo se torna cada vez mais caótico e incompreensível - 
-    extremamente difícil de alterar e manter.
+    A maioria dos projetos em que trabalhei eram legados, marcados por problemas críticos como código e arquitetura deteriorados, que geravam bugs recorrentes, atrasos constantes e uma queda significativa na produtividade.<br/>
+    A manutenção e evolução desses sistemas tornavam-se cada vez mais lentas e propensas a erros, pois a deterioração do código tende a se agravar com o tempo.
   </p>
 
-  <h5>Como agravente, projetos legado geralmente:</h5>
-  <ul class='my-3'>
-    <li>Não tem testes, e quando tem, são incompletos e superficiais.</li>
-    <li>Não tem analizadores de código, nem regras de formatação e estilo.</li>
-    <li>Tem uma arquitetura confusa; Ninguém sabe ao certo quais são os módulos, e onde cada artefato de código deveria ficar.</li>
+  <p class='my-3'>
+      O código que deveria ser claro e expressivo, refletindo com precisão o modelo de negócio, era frequentemente confuso, caótico e extremamente difícil de entender, evoluir e manter.<br/>
+      Isso comprometia diretamente os resultados financeiros e a competitividade das empresas, pois recursos eram constantemente alocados para &quot;apagar incêndios&quot;, em vez de serem investidos no aprimoramento contínuo do produto.
+  </p>
+
+  <h5>Como agravante, projetos legados geralmente apresentam:</h5>
+  <ul class='my-3 fs-15'>
+    <li><i class='fas fa-chevron-right'></i> Ausência de testes automatizados ou testes incompletos e superficiais;</li>
+    <li><i class='fas fa-chevron-right'></i> Falta de analisadores de código e regras claras de formatação e estilo;</li>
+    <li><i class='fas fa-chevron-right'></i> Arquiteturas confusas, com modularidade fraca e excesso de acoplamento.</li>
   </ul>
-  
+
   <p class='my-3'>
-    Há anos, frustrado com essa realidade recorrente na nossa indústria, comecei a implementar um conjunto integrado de <strong>Princípios, Padrões, Técnicas e Ferramentas</strong>, 
-    sempre adaptados à situação específica de cada projeto.
+    Diante dessa realidade recorrente, comecei a organizar e aplicar um conjunto de <strong>Princípios, Padrões, Técnicas e Ferramentas</strong>, 
+    adaptados às necessidades de cada projeto e fundamentados nos princípios do <strong>Software Craftsmanship</strong>.
   </p>
 
-  <h5>Com isso, gradativamente os resultados começaram a aparecer:</h5>
-  <ul class='my-3'>
-      <li>Bugs existentes passaram a ser descobertos pelos desenvolvedores, ao invés dos usuários;</li>
-      <li>A introdução de novos bugs foi drasticamente reduzida;</li>
-      <li>Modificar ou ampliar as funcionalidades existentes, deixou de ser um trabalho doloroso e demorado;</li>
-      <li>A barreira técnica entre desenvolvedores e especialistas de negócio foi superada, com colaboração baseada em uma linguagem comum;</li>
-      <li>Boas práticas e padrões passaram a fazer parte do dia a dia dos desenvolvedores.</li>
+  <h5>Os benefícios foram transformadores:</h5>
+  <ul class='my-3 fs-15'>
+    <li><i class='fas fa-chevron-right'></i> Bugs existentes passaram a ser detectados e resolvidos pelos desenvolvedores antes de chegarem aos usuários;</li>
+    <li><i class='fas fa-chevron-right'></i> A introdução de novos bugs foi drasticamente reduzida, aumentando a confiança nas entregas;</li>
+    <li><i class='fas fa-chevron-right'></i> Modificar ou ampliar funcionalidades tornou-se ágil e eficiente, permitindo respostas rápidas às demandas do mercado;</li>
+    <li><i class='fas fa-chevron-right'></i> A barreira técnica entre desenvolvedores e especialistas de negócio foi eliminada, promovendo colaboração estratégica baseada em uma linguagem comum;</li>
+    <li><i class='fas fa-chevron-right'></i> Boas práticas e padrões passaram a integrar o dia a dia dos desenvolvedores, garantindo qualidade contínua;</li>
+    <li><i class='fas fa-chevron-right'></i> Pragmatismo, responsabilidade e excelência técnica tornaram-se o mindset dos desenvolvedores.</li>
   </ul>
-  
+
   <p class='my-3'>
-    Hoje, como <strong>consultor independente</strong>, trago toda essa experiência para ajudar empresas que utilizam C# e .NET a superar desafios técnicos e alcançar a 
-    <strong>excelência em qualidade de software</strong>.
+    Hoje, como <strong>consultor independente</strong>, aplico essa experiência para ajudar empresas que utilizam C# e .NET a abter
+    <strong>qualidade, produtividade, otimização de custos e vantagem competitiviva</strong>.
   </p>
   "
 
@@ -89,7 +94,7 @@ softwareprojects:
   title: "Software com baixa qualidade gera prejuízo"
   subtitle: "Software com baixa qualidade resulta na perda de clientes, danos à reputação, e redução de receita"
   summary: "<p>
-              Uma infinidade de projetos luta para evoluir, e são entregues com baixa qualidade; 
+              Uma infinidade de projetos luta para evoluir, e são entregues com baixa qualidade. 
               Muitos não conseguem se adaptar rápido o suficiente às demandas do mercado, e alguns falham completamente antes mesmo de serem lançados!
             </p>
             <p>
@@ -126,9 +131,9 @@ softwareprojects:
               Com as práticas, padrões, técnicas e ferramentas certas, aliadas aos princípios do Software Craftsmanship, é possível transformar a qualidade dos projetos de software, eliminando os problemas mencionados e alcançando um padrão elevado de qualidade.
             </p>
             <h4>Ajudei diversas empresas a superar esses desafios e alcançar qualidade superior e consistente</h4>
-            <p class='mb-2'>
+            <p class='mb-3'>
               Com foco em práticas sólidas e comprovadas, ajudo empresas e desenvolvedores a criar e manter software:
-              <ul class='my-0'>
+              <ul class='my-0 text-strong'>
                 <li><i class='fas fa-check-circle'></i> Confiável</li>
                 <li><i class='fas fa-puzzle-piece'></i> Fácil de manter</li>
                 <li><i class='fas fa-bullseye'></i> Relevante e competitivo</li>
@@ -286,10 +291,57 @@ skills:
           value: "100" #0-100 progress in %
           text: "Native speaker."
 
+### Guarantee [ guarantee ]
+guarantee:  
+  title: "Você Só Paga se Estiver 100% Satisfeito"
+  subtitle: "Confiança é a base do meu trabalho. Por isso, ofereço uma garantia sem riscos para sua empresa" 
+  text: "
+        <h4>Minha garantia é simples: Você só paga se estiver 100% satisfeito com os resultados!</h4> 
+        <p>
+          Contratar um consultor não precisa ser arriscado. Confio tanto no valor que entrego que adoto uma abordagem que elimina qualquer incerteza, garantindo segurança e tranquilidade para você.
+        </p>
+        <p>
+            <h4>Como Funciona</h4>
+            <ul class='my-3 fs-15'>
+              <li>
+                <i class='fas fa-chevron-right'></i>
+                <b>Etapas Planejadas:</b> Divido o trabalho em sprints, cada uma com objetivos claros e alinhados às prioridades do seu negócio.
+              </li>
+              <li>
+                <i class='fas fa-chevron-right'></i>
+                <b>Entregas Transparentes:</b> Ao final de cada sprint, apresento os resultados em uma Sprint Review, garantindo visibilidade total sobre o progresso.
+              </li>
+              <li>
+                <i class='fas fa-chevron-right'></i>
+                <b>Pagamento Somente Após Sua Aprovação:</b> Você paga apenas se aprovar os resultados apresentados. Caso algo não atenda às expectativas, realizo ajustes até garantir sua satisfação — sem custo adicional.
+              </li>
+              <li>
+                <i class='fas fa-chevron-right'></i>
+                <b>Sem Custo Inicial:</b> Não há pagamentos antecipados. Você paga somente após confirmar o valor entregue ao seu negócio, validado a partir da primeira Sprint Review.
+              </li>
+            </ul>
+
+            <h4>Por Que Essa Garantia é Diferente?</h4>
+            <ul class='fs-15'>
+              <li>
+                <i class='fas fa-chevron-right'></i>
+                <b>Zero Risco:</b> Você paga apenas pelo valor que reconhece e aprova, sem surpresas ou cobranças indevidas.
+              </li>
+              <li>
+                <i class='fas fa-chevron-right'></i>
+                <b>Transparência Total:</b> O processo é claro e colaborativo, com revisões periódicas e comunicação aberta.
+              </li>
+              <li>
+                <i class='fas fa-chevron-right'></i>
+                <b>Foco em Resultados Reais:</b> Cada sprint é planejada para entregar melhorias concretas, mensuráveis e alinhadas aos seus objetivos.
+              </li>
+            </ul>
+        </p>"
+
 ### Testimonials [ testimonials ]
 testimonials:
-  title: "Reviews"
-  subtitle: "What coworkers say"
+  title: "Recomendações"
+  subtitle: "Feedback de quem trabalhou comigo"
   items:
     - image: "assets/img/testimonials/igor.png"
       name: "Igor Felix"
@@ -327,6 +379,6 @@ portfolio:
 
 ### Contact [ contacts ]
 contacts:
-  title: "Contact"
-  subtitle: "Let's talk"
+  title: "Contato"
+  subtitle: "Vamos conversar"
   

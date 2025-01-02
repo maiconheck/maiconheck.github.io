@@ -13,24 +13,6 @@
     <!-- services items -->
     {% include accordion.html %}
 
-    <div class="service-items">
-      {% for item in content.items %}
-      <div class="service-col">
-        <div class="service-item">
-          <div class="name my-3">
-            <i class="mr-1 icon {{ item.icon }}"></i>
-            <span> {{ item.name }}</span>
-          </div>
-          <div class="single-post-text">
-            <p>
-              {{ item.text }}
-            </p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-
     <div class="clear"></div>
   </div>
 </div>

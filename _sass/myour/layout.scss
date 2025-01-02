@@ -24,12 +24,13 @@
 
 /* - Header */
 .header {
+	border-radius: 30px 0 0 30px !important;
 	padding: 0 0 0 50px;
 	position: fixed;
-	left: 50px;
-	right: 50px;
+	left: 33vw;
+	right: 92px;
 	top: 20px;
-	height: 80px;
+	height: 60px;
 	z-index: 100;
 	background: $extra_bg;
 	@include border-radius(80px);
@@ -38,7 +39,7 @@
 		position: relative;
 		float: left;
 		width: 200px;
-		height: 80px;
+		height: 60px;
 		display: flex;
 		font-size: 0;
 		line-height: 1.2;
@@ -83,11 +84,10 @@
 			margin: 0;
 			padding: 0;
 			list-style: none;
-			height: 80px;
 			display: flex;
 			align-items: center;
 			li {
-				margin-left: 40px;
+				margin-left: 45px;
 				display: inline-block;
 				vertical-align: top;
 				position: relative;
@@ -95,10 +95,10 @@
 					position: relative;
 					overflow: hidden;
 					display: block;
-					font-size: $small_size;
-					line-height: 50px;
+					font-size: $default_size;
+					line-height: 60px;
 					color: $white_color;
-					font-weight: 800;
+					font-weight: 600;
 					text-decoration: none;
 					text-transform: uppercase;
 					@include transition(color 0.7s cubic-bezier(0.165, 0.85, 0.45, 1));
@@ -383,7 +383,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 41%;
+	width: 35%;
 	height: 100%;
 }
 
@@ -412,7 +412,7 @@
 			height: 100%;
 			background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.5) 0%, #373b40 90%);
 			background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.5) 0%, #373b40 90%);
-			background: radial-gradient(ellipse at center, rgba(0,0,0,0.5) 0%, #373b40 90%);
+			background: radial-gradient(ellipse at center, rgba(0,0,0,0.1) 50%, #373b40 90%);
 		}
 		.background-img {
 			-webkit-filter: none;
@@ -473,7 +473,7 @@
 	}
 	.content {
 		position: relative;
-		max-width: 720px;
+		max-width: 780px;
 	}
 	.titles {
 		position: relative;
@@ -616,7 +616,7 @@
 		}
 	}
 	.started-content {
-		max-width: 720px;
+		max-width: 780px;
 		.h-subtitles {
 			margin: 0 0 30px 0;
 			height: 18px;
@@ -805,6 +805,16 @@
 		font-size: 17px;
 		@media (max-width: 1920px) { 
 			font-size: 14px; 
+		}
+	}
+	ul {
+		list-style: none;
+		li {
+			i { color: #5acf89; }
+			padding-left: 0;
+		}
+		li:before {
+			content: none;
 		}
 	}
 }

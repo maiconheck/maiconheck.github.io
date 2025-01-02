@@ -9,6 +9,7 @@ settings:
 ### Header
 header:
   logo:
+    image: "assets/img/logo.png"
     text: "Maicon Heck"
     alt: "Maicon Heck"
 
