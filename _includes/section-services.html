@@ -11,21 +11,7 @@
     </div>
 
     <!-- services items -->
-    <div class="service-items">
-      {% for item in content.items %}
-      <div class="service-col">
-        <div class="service-item">
-          <div class="icon"><i class="{{ item.icon }}"></i></div>
-          <div class="name">{{ item.name }}</div>
-          <div class="single-post-text">
-            <p>
-              {{ item.text }}
-            </p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    {% include accordion.html %}
 
     <div class="clear"></div>
   </div>

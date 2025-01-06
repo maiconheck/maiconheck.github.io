@@ -5,8 +5,6 @@
 
   <body class="{% if page.layout == 'builder' %} home{% endif %}{% if page.layout == 'post' %} post{% endif %}{% if page.layout == 'blog' %} blog{% endif %}{% if page.layout == 'archive' %} blog{% endif %}{% if page.layout == 'page' %} post{% endif %}{% if page.layout == 'error' %} post{% endif %}">
 
-    {%- include preloader.html -%}
-
     <!-- Container -->
   	<div class="container">
       {%- include header.html -%}

@@ -1,0 +1,17 @@
+{% assign content = site.data.content['guarantee'] %}
+
+<div class="section service" id="section-guarantee">
+  <div class="content">
+
+    <div class="titles">
+      <div class="title">{{ content.title }}</div>
+      <div class="subtitle">{{ content.subtitle }}</div>
+    </div>
+
+    <div>
+      {{ content.text }}
+    </div>
+
+    {%- include call-to-action-whatsapp.html text="Quero transformar meu software com resultados garantidos" -%}
+  </div>
+</div>

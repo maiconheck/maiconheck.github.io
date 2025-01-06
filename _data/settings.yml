@@ -9,7 +9,8 @@ settings:
 ### Header
 header:
   logo:
-    text: "Maicon <br />Heck"
+    image: "assets/img/logo.png"
+    text: "Maicon Heck"
     alt: "Maicon Heck"
 
 ### Portfolio Filters Settings

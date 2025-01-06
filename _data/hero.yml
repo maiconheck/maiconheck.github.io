@@ -2,9 +2,17 @@
 ##
 ### here you can find all content for home page hero block
 
-### Started Slider
 started-slider:
   images:
     - "assets/img/maicon1.jpg"
     - "assets/img/maicon2.jpg"
     - "assets/img/maicon3.jpg"
+
+started-image1:
+  image: "assets/img/maicon1.jpg"
+
+started-image2:
+  image: "assets/img/maicon1.jpg"
+
+started-image3:
+  image: "assets/img/maicon1.jpg"

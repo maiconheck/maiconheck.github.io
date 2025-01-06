@@ -21,17 +21,13 @@
           </div>
           <span class="typed-subtitle"></span>
         </div>
-
+        
         <!-- text -->
         <div class="h-text">
           {{ content.text }}
         </div>
 
-        <!-- button -->
-        <!-- <a href="{{ content.button.link }}" class="btn">
-          <span class="animated-button"><span>{{ content.button.text }}</span></span>
-          <i class="icon fas fa-chevron-right"></i>
-        </a> -->
+        {%- include call-to-action-services.html text="Veja como reduzir retrabalho e acelerar entregas" -%}
 
         <!-- mosue button -->
         <div style="text-align: center;">
@@ -39,7 +35,6 @@
             <i class="icon fas fa-chevron-down"></i>
           </a>
         </div>
-
       </div>
 
     </div>

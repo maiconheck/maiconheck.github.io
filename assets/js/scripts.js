@@ -11,34 +11,6 @@
 	window.onpageshow = function(event) {if (event.persisted) {window.location.reload() }};
 
 	$(window).on("load", function() {
-
-		/*
-			Preloader
-		*/
-		var preload = $('.preloader');
-		setTimeout(function(){
-			preload.find('.spinner').velocity({
-				opacity: '0',
-				translateY: '-40px'
-			}, {
-				duration: 400,
-				complete: function(){
-					preload.find('.box-1').velocity({
-						translateY: '-100%'
-					}, {
-						duration: 1000,
-						easing: [0.7,0,0.3,1]
-					});
-					preload.find('.box-2').velocity({
-						translateY: '-100%'
-					}, {
-						duration: 400,
-						easing: [0.7,0,0.3,1]
-					});
-				}
-			});
-		}, 1000);
-
 		/*
 			Typed Subtitle
 		*/
@@ -46,7 +18,10 @@
 			$('.typed-subtitle').each(function(){
 				$(this).typed({
 					stringsElement: $(this).prev('.typing-subtitle'),
-					loop: true
+					loop: true,
+					typeSpeed: 30,
+					backSpeed: 0,
+					backDelay: 2500
 				});
 			});
 		}
@@ -157,18 +132,6 @@
 	}
 
 	/*
-		Button Hover
-	*/
-	$('.animated-button span').each(function (index) {
-		var characters = $(this).text().split("");
-		var label = $(this);
-		label.empty();
-		$.each(characters, function (i, el) {
-			label.append("<em>" + el + "</em>");
-		});
-	});
-
-	/*
 		One Page Menu
 	*/
 	$('header .top-menu').on('click', 'a', function(){
@@ -184,25 +147,7 @@
 				$('.menu-btn').trigger('click');
 			}
 		}
-		else {
-			var preload = $('.preloader');
-			preload.find('.box-1').velocity({
-				translateY: '0%'
-			}, {
-				duration: 400,
-				easing: [0.7,0,0.3,1]
-			});
-			preload.find('.box-2').velocity({
-				translateY: '0%'
-			}, {
-				duration: 1000,
-				easing: [0.7,0,0.3,1],
-				complete: function(){
-					location.href = link;
-				}
-			});
-		}
-		return false;
+		return true;
 	});
 	if($('.section').length && $('.top-menu li a').length) {
 		$(window).on('scroll', function(){
@@ -265,7 +210,7 @@
 	*/
 	$('.section').on('click', '.mouse-btn', function(){
 		$('body, html').animate({
-			scrollTop: height - 150
+			scrollTop: height
 		}, 800);
 	});
 	if($('.section').length>1){

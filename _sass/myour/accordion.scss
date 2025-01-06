@@ -1,0 +1,56 @@
+.accordion-header {
+  $btn_color: #585c65;
+  background: $btn_color !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  height: 3rem;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0px;
+  text-transform: none;
+
+  &:hover {
+      background: lighten($btn_color, 9%) !important;
+
+      .accordion-icon {
+          transform: rotate(90deg); /* Aplica animação apenas no ícone da direita */
+          transition: transform 0.3s ease;
+      }
+  }
+
+  h4 {
+      display: flex;
+      align-items: center;
+      margin: 0;
+
+      .accordion-left-icon {
+          margin-right: 0.5rem;
+          transition: none !important; /* Remove a animação do ícone da esquerda */
+      }
+  }
+}
+
+.accordion-content {
+  max-height: 0; /* Inicialmente fechado */
+  overflow: hidden; /* Esconde conteúdo extra */
+  transition: max-height 0.5s ease-in-out; /* Animação suave */
+  padding: 0 1rem; /* Mantém o padding sem interferir no conteúdo */
+  margin-top: 0.5rem;
+}
+
+.accordion-item {
+  &:last-child {
+      margin-bottom: 0;
+  }
+}
+
+.accordion-icon {
+  font-size: 1.6rem;
+  font-weight: bold;
+  transition: transform 0.3s ease; /* Mantém a animação no ícone da direita */
+}

@@ -12,22 +12,12 @@
 
     <!-- text -->
     <div class="cols">
-      <div class="col col-full">
+      <div class="col col-full mb-0">
         <div class="single-post-text">
           {{ content.text }}
         </div>
       </div>
     </div>
 
-    <!-- info list -->
-    <div class="info-list">
-      <ul>
-        {% for item in content.list %}
-        <li><strong>{{ item.label }}:</strong> {{ item.value }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-
-    <div class="clear"></div>
   </div>
 </div>

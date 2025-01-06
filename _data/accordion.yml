@@ -1,0 +1,263 @@
+accordion:    
+  - icon: "fas fa-search"
+    title: "Diagnóstico de Qualidade do Código, Arquitetura e Testes"
+    callToActionTitle: "Quero insights valiosos e gratuitos sobre o meu software!"
+    isFree: true
+    content: >
+        <h5>Eu realizo uma análise detalhada da qualidade da sua base de código, arquitetura e testes para <mark>identificar problemas críticos</mark> que comprometem a confiança, capacidade de manutenção e segurança do seu software.</h5>
+        <h6 class='fs-1rem fw-500 text-strong'>
+          Um diagnóstico completo é o <mark>primeiro passo para transformar sua base de código em um ativo sustentável, seguro e de alta qualidade.</mark>
+        </h6>
+        <h5>Eu vou analisar, identificar e propor as soluções para:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Bugs e vulnerabilidades;</li>
+          <li><i class='fas fa-chevron-right'></i> Problemas de confiabilidade, manutenibilidade, design, segurança e desempenho;</li>
+          <li><i class='fas fa-chevron-right'></i> Falta de legibilidade e expressividade no código;</li>
+          <li><i class='fas fa-chevron-right'></i> Ausência ou insuficiência de testes;</li>
+          <li><i class='fas fa-chevron-right'></i> Falta de estilo e formatação consistente com as diretrizes de estilo oficiais do C#;</li>
+          <li><i class='fas fa-chevron-right'></i> Problemas arquiteturais, como falta de encapsulamento, modularidade e dependências excessivas;</li>
+          <li><i class='fas fa-chevron-right'></i> Violações dos princípios de design (SOLID, DRY, YAGNI, KISS, POLA, SoC e LoD);</li>
+          <li><i class='fas fa-chevron-right'></i> Violações às boas práticas (programação defensiva, dependências explícitas, código morto, complexidade ciclomática elevada, uso de anti-padrões, mau uso de exceções, acoplamento rígido);</li>
+        </ul>
+        <h5>Como eu faço isso:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Analiso o código com mais de <b>700 analisadores estáticos</b> para identificar problemas de confiabilidade, manutenibilidade, segurança, desempenho, design, estilo e formatação;</li>
+          <li><i class='fas fa-chevron-right'></i> Avalio a cobertura real dos testes automatizados (quando presentes), destacando lacunas e o nível de profundidade;</li>
+          <li><i class='fas fa-chevron-right'></i> Examino a arquitetura do sistema para verificar modularidade, encapsulamento e alinhamento com estilos e princípios arquiteturais modernos como, <b>Clean Architecture</b> e <b>Screaming Architecture</b>;</li>
+          <li><i class='fas fa-chevron-right'></i> Realizo uma análise detalhada dos fluxos de controle para detectar complexidade excessiva e identificar oportunidades de simplificação;</li>
+          <li><i class='fas fa-chevron-right'></i> Identifico violações de princípios de design e boas práticas, propondo correções claras e eficazes;</li>
+          <li><i class='fas fa-chevron-right'></i> Apresento um relatório detalhado dos problemas encontrados, priorizados de acordo com sua severidade e impacto;</li>
+          <li><i class='fas fa-chevron-right'></i> Forneço um plano de ação estratégico para corrigir os problemas e elevar a qualidade do seu software.</li>
+        </ul>
+
+        <div class='alert alert-success my-3'>
+          <i class='fas fa-gift'></i> 
+          <span>
+            Este serviço é <b>100% gratuito</b> para novos clientes e aplicável a apenas uma solution por análise. 
+            Aproveite agora para obter insights valiosos que podem transformar a qualidade do seu código, arquitetura e testes!
+          </span>
+        </div>
+
+  - icon: "fas fa-check-circle"
+    title: "Automação de Testes"
+    callToActionTitle: "Quero a confiança de uma suíte de testes automatizados!"
+    isFree: false
+    content: >
+        <h5>Eu implemento uma suíte completa de Testes Automatizados que <mark>entrega qualidade, confiança e agilidade</mark> para o seu projeto.</h5>
+        <h6 class='fs-1rem fw-500 text-strong'>Com essa suíte, <mark>você terá três benefícios essenciais</mark>:</h6>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Garantia de que o código funciona como esperado e continuará funcionando;</li>
+          <li><i class='fas fa-chevron-right'></i> Segurança para realizar mudanças sem introduzir novos bugs;</li>
+          <li><i class='fas fa-chevron-right'></i> Agilidade para implementar melhorias contínuas sem comprometer a estabilidade.</li>
+        </ul>
+        <h5>Como eu faço isso:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Desenvolvo testes completos e abrangentes que cobrem toda a API pública e exercitam cada branch relevante do código;</li>
+          <li><i class='fas fa-chevron-right'></i> Valido tanto o comportamento quanto o contrato das classes e métodos;</li>
+          <li><i class='fas fa-chevron-right'></i> Concentro esforços no que realmente agrega valor, eliminando dos testes o código boilerplate e o código gerado;</li>
+          <li><i class='fas fa-chevron-right'></i> Integro os testes ao pipeline de CI, garantindo que a cobertura cresça de forma consistente e nunca diminua;</li>
+          <li><i class='fas fa-chevron-right'></i> Utilizo métricas de cobertura de forma estratégica: Line, Branch e Method coverage, alinhadas para refletir a cobertura real;</li>
+          <li><i class='fas fa-chevron-right'></i> Adoto as melhores práticas de teste, incluindo a Pirâmide de Testes (unitários, integração e end-to-end), os princípios F.I.R.S.T (Fast, Independent, Repeatable, Self-Validating, Timely) e o padrão AAA.</li>
+        </ul>
+  
+  - icon: "fas fa-puzzle-piece"
+    title: "Refatoração para Clean Code"
+    callToActionTitle: "Quero acelerar entregas e reduzir custos!"
+    isFree: false
+    content: >
+        <h5>
+          Eu transformo sua base de código em um ativo estratégico e sustentável que <mark>impulsiona o crescimento do seu negócio</mark>.
+        </h5>
+        <h6 class='fs-1rem fw-500 text-strong'>
+          Uma base de código limpa é o motor do desenvolvimento ágil,<br/> <mark>reduz custos de manutenção e acelera entregas</mark>.
+        </h6>
+        <h5>
+          Com a refatoração, seu código se tornará:
+        </h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Claro e expressivo;</li>
+          <li><i class='fas fa-chevron-right'></i> Fácil de entender, modificar e expandir;</li>
+          <li><i class='fas fa-chevron-right'></i> Protegido contra a introdução de novos bugs;</li>
+          <li><i class='fas fa-chevron-right'></i> Consistente com as regras de qualidade e estilo definidas.</li>
+        </ul>
+        <h5>Como eu faço isso:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Reduzo dependências desnecessárias entre componentes, promovendo <b>baixo acoplamento</b> e tornando o código mais <b>flexível a mudanças e fácil de testar</b>;</li>
+          <li><i class='fas fa-chevron-right'></i> Separo responsabilidades e organizo o código em módulos coesos, seguindo os princípios de <b>Alta Coesão</b> e <b>Single Responsibility</b>;</li>
+          <li><i class='fas fa-chevron-right'></i> Transformo classes monolíticas em componentes menores, utilizando <b>abstrações</b> e interfaces para aumentar a extensibilidade (princípios de <b>Open/Closed</b> e <b>Dependency Inversion</b>);</li>
+          <li><i class='fas fa-chevron-right'></i> Reduzo o tamanho de métodos e classes, garantindo que cada um tenha <b>uma única responsabilidade</b> (princípio de <b>Single Responsibility</b>) e aplicando a <b>segregação entre comandos e consultas</b> (<b>CQS - Command Query Segregation</b>);</li>
+          <li><i class='fas fa-chevron-right'></i> Defino nomes claros e significativos para variáveis, classes e métodos, garantindo <b>clareza e expressividade</b> no código;</li>
+          <li><i class='fas fa-chevron-right'></i> Elimino código duplicado, removendo redundâncias e aplicando boas práticas de reutilização;</li>
+          <li><i class='fas fa-chevron-right'></i> Organizo o código para evitar interfaces excessivamente grandes, criando <b>interfaces menores e específicas</b> (princípio de <b>Interface Segregation</b>);</li>
+          <li><i class='fas fa-chevron-right'></i> Aplico estilo e formatação consistentes com as diretrizes de estilo oficiais do C#, garantindo <b>clareza e legibilidade</b> em toda a base de código;</li>
+          <li><i class='fas fa-chevron-right'></i> Implemento Programação Defensiva com <b>Guard Clauses</b> e <b>Fail Fast</b>, prevenindo erros em tempo de execução e acelerando a identificação de falhas;</li>
+          <li><i class='fas fa-chevron-right'></i> Substituo código ad-hoc por soluções baseadas em <b>Design Patterns</b> e <b>Design Principles</b>;</li>
+          <li><i class='fas fa-chevron-right'></i> Identifico e elimino <b>Code Smells</b>, melhorando a qualidade e o desempenho do código;</li>
+          <li><i class='fas fa-chevron-right'></i> Automatizo a análise de qualidade com ferramentas de análise estática, garantindo <b>consistência</b> e <b>qualidade contínua</b> do código;</li>
+          <li><i class='fas fa-chevron-right'></i> Integro a análise de qualidade ao pipeline de CI, assegurando que as regras de qualidade sejam aplicadas de forma <b>persistente</b> em toda a base de código.</li>
+        </ul>
+
+  - icon: "fas fa-layer-group"
+    title: "Modernização da Arquitetura de Software"
+    callToActionTitle: "Quero uma arquitetura moderna e escalável!"
+    isFree: false
+    content: >
+        <h5>Eu modernizo sua arquitetura de software para torná-la <mark>escalável, evolutiva e preparada para o futuro</mark>.</h5>
+        <h6 class='fs-1rem fw-500 text-strong'>
+          Uma arquitetura bem projetada e fundamentada em um estilo confiável 
+          <mark>reduz custos, acelera mudanças e suporta o crescimento do seu negócio</mark>.
+        </h6>
+        <h5>Com a Modernização da Arquitetura, sua solução se tornará:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> <b>Escalável</b>, para atender ao crescimento e demandas do negócio;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Modular</b>, permitindo mudanças rápidas e seguras, minimizando impactos;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Resiliente</b>, preparada para lidar com falhas e manter alta disponibilidade;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Clara e bem organizada</b>, promovendo alinhamento entre equipes técnicas e objetivos estratégicos;</li>
+          <li><i class='fas fa-chevron-right'></i> <b>Sustentável a longo prazo</b>, com baixo custo de manutenção e alta eficiência.</li>
+        </ul>
+        <h5>Como eu faço isso:</h5>
+        <ul class='my-0'>
+          <li><i class='fas fa-chevron-right'></i> Reestruturo módulos para promover <b>alta coesão</b> e <b>baixo acoplamento</b>, facilitando a manutenção e evolução do sistema;</li>
+          <li><i class='fas fa-chevron-right'></i> Aplico princípios de <b>Screaming Architecture</b> e o estilo <b>Clean Architecture</b> para organizar camadas, responsabilidades e refletir claramente os módulos do sistema;</li>
+          <li><i class='fas fa-chevron-right'></i> Implemento, quando apropriado, o estilo <b>Modular Monolith</b>, maximizando <b>modularidade, produtividade e simplicidade</b>;</li>
+          <li><i class='fas fa-chevron-right'></i> Adoto <b>CQRS</b> para criar APIs baseadas em tarefas, aumentando expressividade, escalabilidade e experiência do usuário;</li>
+          <li><i class='fas fa-chevron-right'></i> Modernizo APIs e integrações com sistemas de terceiros, garantindo eficiência, disponibilidade e segurança;</li>
+          <li><i class='fas fa-chevron-right'></i> Incorporo <b>Problem Details</b> para padronizar erros e fornecer respostas consistentes;</li>
+          <li><i class='fas fa-chevron-right'></i> Integro práticas de <b>observabilidade</b>, como <b>logs estruturados</b> e <b>métricas de performance</b>, para monitorar o sistema, identificar gargalos e garantir sua saúde contínua;</li>
+          <li><i class='fas fa-chevron-right'></i> Realizo a <b>migração gradual para .NET Core</b>, quando aplicável, mantendo compatibilidade com .NET Framework, minimizando riscos e garantindo continuidade operacional.</li>
+        </ul>
+
+  - icon: "fas fa-shapes"
+    title: "Refatoração para Domain-Driven Design (DDD)"
+    callToActionTitle: "Transforme seu software em um ativo estratégico hoje!"
+    isFree: false
+    content: >
+        <h5>
+          Eu ajudo a transformar seu software em um <mark>ativo estratégico para a sua organização se destacar em um mercado cada vez mais competitivo</mark>.
+        </h5>
+        <h5>DDD feito da forma certa traz <mark>benefícios incomparáveis</mark>:</h5>
+        <ul class='my-0'>
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i>
+            <b class='fs-16'>Torna o software cada vez melhor</b>:<br/>
+            <div class='mt-1'>
+              Cada interação entre especialistas de negócio e desenvolvedores torna o modelo mais <b>rico e expressivo</b>, 
+              pois o time ganha cada vez mais conhecimento sobre o domínio, e os desenvolvedores transferem essa fonte de valor para o software através dos <b>Padrões de Design Táticos</b> do DDD.
+            </div>
+          </li>
+          
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i>
+            <b class='fs-16'>Transforma o desenvolvimento em uma prática estratégica e precisa</b>:<br/>
+            <div class='mt-1'>
+              Com ferramentas de modelagem estratégicas e táticas, criamos sistemas que refletem fielmente o modelo mental 
+              dos especialistas de negócio e potencializam o Core Domain. O resultado é um software <b>modular, confiável e preparado para atender às expectativas mais exigentes</b>, incluindo SLAs.
+            </div>
+          </li>
+
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i> 
+            <b class='fs-16'>Elimina a barreira técnica</b>:<br/>
+            <div class='mt-1'>
+              Transmite o profundo conhecimento dos especialistas de negócio para os desenvolvedores, capacitando-os para resolver com excelência as necessidades reais do negócio.
+            </div>
+          </li>
+
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i>
+            <b class='fs-16'>Promove colaboração eficiente</b>:<br/>
+            <div class='mt-1'>
+              Com uma <b>linguagem compartilhada, livre de ambiguidades e traduções</b>, especialistas de negócio e desenvolvedores colaboram de maneira ativa e incremental.
+            </div>
+          </li>
+
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i> 
+            <b class='fs-16'>O conhecimento é amplamente compartilhado</b>:<br/>
+            <div class='mt-1'>
+              O conhecimento do domínio não fica retido em uma "tribo", mas se torna acessível e replicável para toda a equipe.
+            </div>
+          </li>          
+
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i> 
+            <b class='fs-16'>Organiza a complexidade</b>:<br/>
+            <div class='mt-1'>
+              O Domínio é dividido em Subdomínios (Core Domain, Supporting Subdomains e Generic Subdomains).<br/>
+            </div>
+            <div class='mt-2'>
+              Cada <b>Subdomínio</b> contém <b>Modelos de Domínio</b> cuidadosamente implementados e organizados através de <b>Contextos Delimitados</b>, de acordo com a sua respectiva <b>Linguagem Ubíqua</b>.
+            </div>
+          </li>
+          
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i> 
+            <b class='fs-16'>Aprimora a arquitetura</b>:<br/>
+            <div class='mt-1'>
+              A arquitetura empresarial torna-se mais organizada, modular e resiliente.
+            </div>
+          </li>
+          
+          <li class='mb-2'>
+            <i class='fas fa-chevron-right'></i> 
+            <b class='fs-16'>Elimina obsolescência e perdas semânticas na modelagem</b>:<br/>
+            <div class='mt-1'>
+              <b>Sem DDD</b>, vincular a modelagem à implementação requer modelos abstratos e subjetivos, que naturalmente perdem parte do valor durante a implementação, e rapidamente se tornam obsoletos.<br/>
+            </div>
+            <div class='mt-2'>
+              <b>Com DDD</b>, o modelo é a implementação, ou seja, o modelo é o código, e o código é o modelo!<br/>
+            </div>
+          </li>
+        </ul>
+        <h5>Como eu faço isso:</h5>
+        <ul class='my-0'>
+          <li>            
+            <i class='fas fa-chevron-right'></i>
+            <b>Capacitando o time</b>: Realizo um treinamento prático, estruturado em três partes, capacitando o time a aplicar DDD com eficácia:
+            <br/>
+            <div class='my-3'>
+              <b>Parte 1 - Fundamentos de DDD:</b> Apresento os conceitos essenciais que formam a base do DDD, como Domínio, Subdomínios (Core, Supporting e Generic Subdomains), Modelos de Domínio, Linguagem Ubíqua, Bounded Contexts, Context Map e Módulos. 
+              Mostro como esses elementos se conectam da descoberta à implementação, resolvendo problemas como modelos anêmicos e complexidade desorganizada, 
+              além de introduzir os principais Patterns Táticos para preparar o terreno da implementação.
+            </div>
+            <div class='mb-3'>
+              <b>Parte 2 - Modelagem Estratégica:</b> Ensino como identificar Subdomínios, incluindo o mais importante: o Core Domain.
+              Apresento os patterns de integração que usaremos para integrar Bounded Contexts, entre eles, Partnership, Customer-Supplier, Conformist, Shared Kernel, Anticorruption Layer e Big Ball Of Mud,
+              explicando como eles influenciam na criação de Context Maps e ajudam a alinhar equipes em torno de limites claros e estratégias eficientes.
+            </div>
+            <div class='mb-3'>
+              <b>Parte 3 - Modelagem Tática:</b> Demonstro como conectar decisões estratégicas à prática por meio da implementação de Aggregates, Entities, Value Objects, Módulos, Domain Events e Repositories. 
+              Esses Tactical Patterns são os alicerces para construir modelos de domínio ricos e expressivos, que encapsulam regras de negócio, garantem invariantes de dados e promovem coesão, assegurando a consistência do sistema. 
+              Exemplos práticos ilustram como aplicá-los de forma eficaz no contexto do seu negócio.
+            </div>
+          </li>
+
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Facilitando a criação de uma Linguagem Ubíqua</b>: Conduzo workshops colaborativos com especialistas de domínio e desenvolvedores para criar uma Linguagem Ubíqua clara e livre de ambiguidades, 
+            conectando equipes e garantindo colaboração e alinhamento estratégico.
+          </li>
+
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Descobrindo e mapeando Contextos Delimitados</b>: Conduzo a criação de diagramas simples (Context Map) que comunicam, de forma clara e objetiva, onde estão os limites e as relações entre os contextos e suas equipes, 
+            os tipos de integrações e as traduções necessárias entre eles.  
+          </li>
+
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Descobrindo e organizando Subdomínios</b>: Estruturo Subdomínios e seus Modelos de Domínio utilizando Contextos Delimitados definidos pela Linguagem Ubíqua, promovendo alta coesão, modularidade e clareza nos limites de responsabilidade.
+          </li>
+
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Promovendo refatorações graduais</b>: Transformo progressivamente código anêmico em modelos de domínio ricos, utilizando os Patterns Táticos do DDD, como Aggregates, Entities, Value Objects, Módulos, Domain Events e Repositories. 
+            Garantimos que cada etapa da refatoração esteja alinhada com a Linguagem Ubíqua e as necessidades reais do negócio.
+          </li>
+
+          <li>
+            <i class='fas fa-chevron-right'></i> 
+            <b>Dinâmicas Colaborativas e Evolução Contínua</b>: Promovo sessões práticas de Event Storming para mapear fluxos críticos, conectar especialistas de domínio aos desenvolvedores e garantir que o modelo evolua continuamente, 
+            sempre alinhado às estratégias do negócio e demandas do mercado.
+          </li>
+        </ul>
