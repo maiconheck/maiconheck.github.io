@@ -284,9 +284,8 @@ a:hover {
   
 
 a.btn,
-.btn,
-.single-post-text input[type="submit"],
-button {
+.btn
+{
 	padding: 0 35px;
 	position: relative;
 	overflow: hidden;
@@ -319,6 +318,39 @@ button {
 	}
 }
 
+.single-post-text input[type="submit"],
+button {
+	padding: 0 30px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	height: 60px;
+	text-align: center;
+	font-size: $btn_size;
+	color: $white_color;
+	font-weight: 700;
+	text-decoration: none;	
+	background: $btn_color;
+	border: 1px solid $lines_color;
+	cursor: pointer;
+	@include border-radius(10px);
+	@include transition(1s all cubic-bezier(0.165, 0.85, 0.45, 1) 0s);
+	&:hover {
+		background: darken($btn_color, 7%);
+		border-color: $active_color;
+		.animated-button {
+			em {
+				transform: translateY(calc(16px * -1));
+			}
+		}
+		.icon {
+			color: $active_color;
+			@include transform(translateX(6px));
+		}
+	}
+}
+
 a.btn .icon,
 .btn .icon,
 button .icon {
@@ -329,18 +361,18 @@ button .icon {
 /* - Forms */
 input,
 textarea {
-	padding: 0 30px;
+	padding: 0 20px;
 	display: block;
 	font-family: $default_font;
 	font-size: $default_size;
-	height: 64px;
+	height: 55px;
 	width: 100%;
 	color: $white_color;
 	background: none!important;
-	border: 1px solid $lines_color;
+	border: 1px solid $light_color;
 	resize: none;
 	outline: 0;
-	@include border-radius(30px);
+	@include border-radius(5px);
 	@include transition(all 0.3s ease 0s);
 }
 
@@ -352,8 +384,8 @@ button:focus {
 
 textarea {
 	height: 170px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	resize: none;
 }
 
@@ -415,13 +447,13 @@ input.error,
 textarea.error,
 input.wpcf7-not-valid,
 textarea.wpcf7-not-valid {
-	border-bottom: 1px solid $error_color !important;
+	border: 1px solid $error_color !important;
 }
 
-label.error,
-.wpcf7-not-valid-tip {
-	display: none!important;
-}
+// label.error,
+// .wpcf7-not-valid-tip {
+// 	display: none!important;
+// }
 
 input.error::-moz-placeholder,
 textarea.error::-moz-placeholder,

@@ -1,7 +1,8 @@
 accordion:    
   - icon: "fas fa-search"
-    title: "Diagnóstico de Qualidade do Código, Arquitetura e Testes <span class='badge ms-2'><i class='fas fa-gift'></i> Gratuito</span>"
+    title: "Diagnóstico de Qualidade do Código, Arquitetura e Testes"
     callToActionTitle: "Quero insights valiosos e gratuitos sobre o meu software!"
+    isFree: true
     content: >
         <h5>Eu realizo uma análise detalhada da qualidade da sua base de código, arquitetura e testes para <mark>identificar problemas críticos</mark> que comprometem a confiança, capacidade de manutenção e segurança do seu software.</h5>
         <h6 class='fs-1rem fw-500 text-strong'>
@@ -40,6 +41,7 @@ accordion:
   - icon: "fas fa-check-circle"
     title: "Automação de Testes"
     callToActionTitle: "Quero a confiança de uma suíte de testes automatizados!"
+    isFree: false
     content: >
         <h5>Eu implemento uma suíte completa de Testes Automatizados que <mark>entrega qualidade, confiança e agilidade</mark> para o seu projeto.</h5>
         <h6 class='fs-1rem fw-500 text-strong'>Com essa suíte, <mark>você terá três benefícios essenciais</mark>:</h6>
@@ -60,7 +62,8 @@ accordion:
   
   - icon: "fas fa-puzzle-piece"
     title: "Refatoração para Clean Code"
-    callToActionTitle: "Quero acelerar entregas e reduzir custos!"    
+    callToActionTitle: "Quero acelerar entregas e reduzir custos!"
+    isFree: false
     content: >
         <h5>
           Eu transformo sua base de código em um ativo estratégico e sustentável que <mark>impulsiona o crescimento do seu negócio</mark>.
@@ -97,6 +100,7 @@ accordion:
   - icon: "fas fa-layer-group"
     title: "Modernização da Arquitetura de Software"
     callToActionTitle: "Quero uma arquitetura moderna e escalável!"
+    isFree: false
     content: >
         <h5>Eu modernizo sua arquitetura de software para torná-la <mark>escalável, evolutiva e preparada para o futuro</mark>.</h5>
         <h6 class='fs-1rem fw-500 text-strong'>
@@ -126,6 +130,7 @@ accordion:
   - icon: "fas fa-shapes"
     title: "Refatoração para Domain-Driven Design (DDD)"
     callToActionTitle: "Transforme seu software em um ativo estratégico hoje!"
+    isFree: false
     content: >
         <h5>
           Eu ajudo a transformar seu software em um <mark>ativo estratégico para a sua organização se destacar em um mercado cada vez mais competitivo</mark>.

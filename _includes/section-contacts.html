@@ -16,18 +16,18 @@
       <form id="cform" action="https://formsubmit.io/send/{{ site.formsubmit_email }}" method="post">
         <div class="group-val">
           <div class="label">{{ ui_text.full_name }} <strong>*</strong></div>
-            <input type="text" name="name" placeholder="{{ ui_text.your_full_name }}" />
+            <input type="text" name="name" />
         </div>
         <div class="group-val">
           <div class="label">{{ ui_text.email_address }} <strong>*</strong></div>
-          <input type="email" name="email" placeholder="{{ ui_text.your_email_address }}" />
+          <input type="email" name="email" />
         </div>
         <div class="group-val">
           <div class="label">{{ ui_text.message }} <strong>*</strong></div>
-          <textarea name="message" placeholder="{{ ui_text.your_message }}"></textarea>
+          <textarea name="message"></textarea>
         </div>
         <div class="group-bts">
-          <button type="submit" class="btn">
+          <button type="submit">
             <span class="animated-button"><span>{{ ui_text.send_message }}</span></span>
             <i class="icon fas fa-chevron-right"></i>
           </button>

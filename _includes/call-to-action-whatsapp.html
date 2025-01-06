@@ -1,0 +1,14 @@
+<!-- call-to-action button -->
+<div class="mt-2 mb-4">
+  {% assign customMessage = '' %}
+  {% if include.serviceName %}
+    {% assign customMessage = 'Olá, visitei sua página e me interessei pelo serviço *' | append: include.serviceName | append: '*. Vamos conversar sobre como ele pode ajudar minha empresa?' %}
+  {% else %}
+    {% assign customMessage = 'Olá, visitei sua página e percebi como seus serviços podem transformar software em um ativo estratégico. Gostaria de entender como você pode ajudar minha empresa a criar soluções confiáveis, fáceis de manter e alinhadas ao crescimento do negócio. Vamos conversar?' %}
+  {% endif %}
+  <a href="https://wa.me/5551997614840?text={{ customMessage | uri_escape }}"
+    class="btn-call-to-action" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+    <span>{{ include.text }}</span>
+  </a>
+</div>
