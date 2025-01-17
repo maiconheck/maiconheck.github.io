@@ -14,8 +14,8 @@ $(document).ready(function () {
       closeAccordionItem($header, $content);    
   });
 
-  // Handle CTA button clicks.
-  $(".accordion").on("click", ".btn-call-to-action", function (e) {
+  // Handle whatsapp CTA button clicks.
+  $(document).on("click", '[data-cta-type="whatsapp"]', function (e) {
     e.preventDefault();
     openLinkInNewTab($(this));
   });
