@@ -2,13 +2,13 @@
     {% for item in site.data.accordion.accordion %}
     <div class="accordion-item">
         <button class="accordion-header">
-            <span>
+            <span class="text-align-left">
                 <i class="accordion-left-icon mr-1 {{ item.icon }}"></i>
                 {{ item.title | strip_html }}
             </span>
             <span class="accordion-icon">+</span>
         </button>
-        <div class="accordion-content" style="max-height: 0;">
+        <div class="accordion-content text-align-initial" style="max-height: 0;">
             {{ item.content }}
             {%- include call-to-action-whatsapp.html text=item.callToActionTitle serviceName=item.title -%}
         </div>

@@ -132,6 +132,10 @@
 .text-italic { font-style: italic !important; }
 .text-grammar-error { text-decoration-line: grammar-error; }
 
+.text-align-initial { text-align: initial !important; }
+.text-align-center { text-align: center !important; }
+.text-align-left { text-align: left !important; }
+
 // Success and Error Colors
 .color-success { color: #5acf89 !important; }
 .color-error { color: $error_color !important; }
