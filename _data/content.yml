@@ -15,7 +15,7 @@ started:
     - ".NET"
   text: "
         <h4 class='mb-4 mt-5'>Eu ajudo empresas e desenvolvedores a transformar software legado em sofware altamente:</h4>
-         <ul>
+         <ul class='text-align-initial'>
             <li>
               <strong><mark><i class='fas fa-check-circle'></i> Confiável:</mark></strong> 
               Com uma suíte de Testes Automatizados e técnicas robustas de Programação Defensiva,
@@ -103,7 +103,7 @@ softwareprojects:
             </p>
             <h4>Na minha experiência, os principais motivos são:</h4>
             <table>
-              <tbody>
+              <tbody class='text-align-center'>
                 <tr>
                   <td><i class='fas fa-exclamation-triangle'></i> Arquitetura frágil</td>
                   <td><i class='fas fa-vial'></i> Testes automatizados superficiais</td>

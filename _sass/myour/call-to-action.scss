@@ -1,5 +1,5 @@
 .btn-call-to-action {
-    font-size: 19px !important;
+    font-size: clamp(13px, 2vw, 19px) !important;
     font-weight: 700;
     background: $btn_color;
     border-radius: 10px;
@@ -15,6 +15,7 @@
     i {
         font-size: xx-large;
         margin-right: 8px;
+        margin-left: 12px;
     }
 
     @media (max-width: 1920px) {
