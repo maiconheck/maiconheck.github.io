@@ -5,7 +5,7 @@
 ui_text:
   home:                 "Home"
   blog:                 "Blog"
-  blog_subtitle:        "Todas as notícias e eventos mais recentes da minha vida"
+  blog_subtitle:        "Insights sobre qualidade de software"
   archive:              "Arquivo"
   blog_post:            "Blog Post"
   by:                   "por"
@@ -15,7 +15,7 @@ ui_text:
   prev:                 "Anterior"
   next:                 "Próximo"
   comments:             "Comentários"
-  full_name:            "Nome Completo"
+  first_name:            "Primeiro Nome"
   your_full_name:       "ej.: Genoveva Lian Hullt"
   email_address:        "E-mail"
   your_email_address:   "example@domain.com"

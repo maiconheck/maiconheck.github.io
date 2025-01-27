@@ -464,8 +464,8 @@
 .section {
 	position: relative;
 	overflow: hidden;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	border-bottom: 1px solid #585d65;
 	z-index: 12;
 	&:last-child {
@@ -722,7 +722,7 @@
 	}
 	.section.started .h-title {
 		margin: 0 auto;
-		margin-top: -200px;
+		margin-top: -171px;
 		padding: 70px 35px 30px 35px;
 		width: 480px;
 		font-size: 60px;
@@ -737,9 +737,6 @@
 		margin: 0 0 40px 0;
 		height: 18px;
 	}
-	.section.started .started-content .h-text {
-		display: none;
-	}
 	.section.started .mouse-btn {
 		display: none!important;
 	}
@@ -753,7 +750,7 @@
 		padding-bottom: 50px;
 	}
 	.section.started .h-title {
-		margin-top: -140px;
+		margin-top: -132px;
 		padding: 70px 15px 15px 15px;
 		width: auto;
 		font-size: 40px;

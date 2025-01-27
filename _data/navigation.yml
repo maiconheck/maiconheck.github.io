@@ -33,6 +33,6 @@ main:
     url: "#section-contacts"
     parent: 0
 
-  - title: "Blog"
-    url: "blog/"
-    parent: 0
+  #- title: "Blog"
+  #  url: "blog/"
+  #  parent: 0

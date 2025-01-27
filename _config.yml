@@ -30,7 +30,7 @@
 
 # basic settings
 title: "Maicon Heck"
-email: "maiconregisheck@gmail.com"
+email: "maicon@maiconheck.io"
 description: "Software Design, Architecture & Craftsmanship"
 author: "Maicon Heck"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -47,7 +47,7 @@ disqus_comments: "yes" # yes - show disqus comments, no - hide disqus comments
 disqus_shortname: "maiconheck-io" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 # formsubmit.io
-formsubmit_email: "maiconregisheck@gmail.com" # sign up on https://formsubmit.io/ and confirm your email
+formsubmit_email: "maicon@maiconheck.io" # sign up on https://formsubmit.io/ and confirm your email
 
 # collections
 collections:
