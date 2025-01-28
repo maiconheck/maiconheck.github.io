@@ -46,6 +46,9 @@ permalink: pretty
 disqus_comments: "yes" # yes - show disqus comments, no - hide disqus comments
 disqus_shortname: "maiconheck-io" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
+# google analytics:
+google_analytics: G-VKTVVQQ4F8
+
 # contact form
 contact_form:
   message_success: 'Sua mensagem foi enviada com sucesso. Entrarei em contato o mais breve possível.'
