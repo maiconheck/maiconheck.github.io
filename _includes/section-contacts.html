@@ -13,7 +13,7 @@
 
     <!-- contact form -->
     <div class="contact-form">
-      <form id="cform" action="https://formsubmit.io/send/{{ site.formsubmit_email }}" method="post">
+      <form id="cform" accept-charset="UTF-8" action="https://getform.io/f/bwnnjxza" method="POST">
         <div class="group-val">
           <div class="label">{{ ui_text.first_name }} <strong>*</strong></div>
             <input type="text" name="name" />
@@ -25,8 +25,9 @@
         <div class="group-val">
           <div class="label">{{ ui_text.message }} <strong>*</strong></div>
           <textarea name="message"></textarea>
+          <input type="hidden" name="_gotcha" style="display:none !important">
         </div>
-        <div class="group-bts">
+        <div class="group-bts text-align-center">
           <button type="submit">
             <span class="animated-button"><span>{{ ui_text.send_message }}</span></span>
             <i class="icon fas fa-chevron-right"></i>
@@ -41,3 +42,18 @@
     <div class="clear"></div>
   </div>
 </div>
+
+<script>
+  (function() {
+    'use strict';
+    
+    const message_success = {{ site.contact_form.message_success | jsonify }};
+    const message_error = {{ site.contact_form.message_error | jsonify }};
+
+    window.contactForm = {
+      successMessage: message_success,
+      errorMessage: message_error
+    };
+  })();
+</script>
+

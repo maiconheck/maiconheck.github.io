@@ -46,8 +46,10 @@ permalink: pretty
 disqus_comments: "yes" # yes - show disqus comments, no - hide disqus comments
 disqus_shortname: "maiconheck-io" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
-# formsubmit.io
-formsubmit_email: "maicon@maiconheck.io" # sign up on https://formsubmit.io/ and confirm your email
+# contact form
+contact_form:
+  message_success: 'Sua mensagem foi enviada com sucesso. Entrarei em contato o mais breve possível.'
+  message_error: 'Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde.'
 
 # collections
 collections:

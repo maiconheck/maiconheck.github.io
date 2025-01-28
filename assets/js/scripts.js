@@ -391,24 +391,39 @@
 	*/
 	$('#cform').validate({
 		rules: {
-			name: {
-				required: true
-			},
-			message: {
-				required: true
-			},
-			email: {
-				required: true,
-				email: true
-			}
+			name: { required: true },
+			message: { required: true },
+			email: { required: true, email: true }
 		},
 		success: 'valid',
-		submitHandler: function() {
-			return true;
+		submitHandler: function(form) {
+			// Disable the button and add the loader.
+			var $submitButton = $(form).find('button[type="submit"]');
+			$submitButton.prop('disabled', true).addClass('loading');
 
-			$("#cform").find('input[type="text"], input[type="email"], input[type="tel"], textarea').val('');
-      $('#cform').fadeOut();
-      $('.alert-success').delay(1000).fadeIn();
+			var action = $(form).attr("action");
+			
+			$.ajax({
+			  type: "POST",
+			  url: action,
+			  crossDomain: true,
+			  data: new FormData(form),
+			  dataType: "json",
+			  processData: false,
+			  contentType: false,
+			  headers: {
+				"Accept": "application/json"
+			  }
+			}).done(function() {
+				$(form).find('input[type="text"], input[type="email"], input[type="tel"], textarea').val('');
+				showToast(contactForm.successMessage, 'success');
+			}).fail(function() {
+				showToast(contactForm.errorMessage, 'error');			
+			})
+			.always(function() {
+				// Reactivate the button and remove the loader.
+				$submitButton.prop('disabled', false).removeClass('loading');
+			});
 		}
 	});
 

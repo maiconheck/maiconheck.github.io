@@ -1,0 +1,58 @@
+// Variables
+$toast-padding: 1rem 1.5rem;
+$toast-border-radius: 8px;
+$toast-success-bg: #28a745;
+$toast-error-bg: #dc3545;
+$toast-font-size: 1rem;
+$toast-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+$toast-z-index: 9999;
+
+// Keyframe Animations
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Toast Base Styles
+.toast {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  margin-bottom: 0.5rem;
+  padding: $toast-padding;
+  border-radius: $toast-border-radius;
+  color: white;
+  font-size: $toast-font-size;
+  box-shadow: $toast-shadow;
+  opacity: 1;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  z-index: $toast-z-index;
+
+  &.fade-out {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  &.success {
+    background-color: $toast-success-bg;
+  }
+
+  &.error {
+    background-color: $toast-error-bg;
+  }
+}
+
+// Responsiveness
+@media (max-width: 768px) {
+  .toast {
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
