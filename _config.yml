@@ -29,12 +29,13 @@
 # in the templates via {{ site.myvariable }}.
 
 # basic settings
-title: "Maicon Heck"
+title: "Transformando software legado em soluções confiáveis, fáceis de manter e competitivas"
+description: "Consultoria especializada em Clean Code, Arquitetura de Software e Automação de Testes. Transforme código legado em um ativo sustentável, escalável e confiável."
 email: "maicon@maiconheck.io"
-description: "Software Design, Architecture & Craftsmanship"
 author: "Maicon Heck"
+lang: "pt-BR"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://maiconheck.io" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%d %B %Y"
 
 # paginations & permalinks
