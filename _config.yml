@@ -42,6 +42,7 @@ date_format: "%d %B %Y"
 social_links:
   - "https://www.linkedin.com/in/maiconheck"
   - "https://github.com/maiconheck"
+  - "https://medium.com/@maiconheck"
 
 # paginations & permalinks
 paginate: 6
