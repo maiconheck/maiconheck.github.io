@@ -5,6 +5,9 @@
 <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 <meta name="robots" content="index, follow">
 
+<!-- Hreflang to Indicate that the Page is for Brazilian Users -->
+<link rel="alternate" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" hreflang="pt-BR" />
+
 <!-- Open Graph (Facebook, LinkedIn) -->
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
