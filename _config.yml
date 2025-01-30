@@ -30,13 +30,18 @@
 
 # basic settings
 title: "Transformando software legado em soluções confiáveis, fáceis de manter e competitivas"
-description: "Consultoria especializada em Clean Code, Arquitetura de Software e Automação de Testes. Transforme código legado em um ativo sustentável, escalável e confiável."
+description: "Reduza bugs e retrabalho, proteja sua reputação e acelere entregas com qualidade. Transforme seu software em um ativo estratégico para inovação e crescimento."
+serviceType: "Consultoria em desenvolvimento de software"
 email: "maicon@maiconheck.io"
 author: "Maicon Heck"
 lang: "pt-BR"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maiconheck.io" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%d %B %Y"
+
+social_links:
+  - "https://www.linkedin.com/in/maiconheck"
+  - "https://github.com/maiconheck"
 
 # paginations & permalinks
 paginate: 6
@@ -76,7 +81,6 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-gist
 
 # Exclude from processing.

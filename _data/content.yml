@@ -7,11 +7,11 @@
 started:
   title: "Maicon Heck"
   typed:
-    - "Software Craftsmanship"
-    - "Domain-Driven Design"
-    - "Princípios e Padrões de Design"
     - "Clean Code"
     - "Automação de Testes"
+    - "Domain-Driven Design (DDD)"
+    - "Software Craftsmanship"
+    - "Princípios e Padrões de Design"
     - ".NET"
   text: "
         <h4 class='mb-4 mt-5'>Eu ajudo empresas e desenvolvedores a transformar software legado em sofware altamente:</h4>
@@ -24,7 +24,7 @@ started:
             <li>
               <strong><mark><i class='fas fa-puzzle-piece'></i> Fácil de Manter:</mark></strong> 
               Com as técnicas certas de Refatoração e Princípios/Padrões de Design, <span class='text-bold'>modificar ou expandir funcionalidades se torna ágil e seguro</span>, 
-              permitindo que sua empresa <span class='text-bold'>responda rapidamente às demandas do mercado e acelere resultados.</span>
+              permitindo que sua empresa <span class='text-bold'>responda rapidamente às demandas do mercado e acelere entregas.</span>
             </li>
             <li>
               <strong><mark><i class='fas fa-bullseye'></i> Relevante e Competitivo:</mark></strong>
