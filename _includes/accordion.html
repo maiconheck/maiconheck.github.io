@@ -6,6 +6,9 @@
                 <i class="accordion-left-icon mr-1 {{ item.icon }}"></i>
                 {{ item.title | strip_html }}
             </span>
+            {% if item.isFree %}
+                <span class="badge ms-2"><i class="fas fa-gift"></i> Gratuito</span>
+            {% endif %}
             <span class="accordion-icon">+</span>
         </button>
         <div class="accordion-content text-align-initial" style="max-height: 0;">

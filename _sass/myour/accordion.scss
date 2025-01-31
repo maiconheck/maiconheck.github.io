@@ -13,6 +13,7 @@
   font-weight: bold;
   border-radius: 0px;
   text-transform: none;
+  padding: 0 15px;
 
   &:hover {
       background: lighten($btn_color, 9%) !important;
