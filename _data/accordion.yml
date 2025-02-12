@@ -89,6 +89,7 @@ accordion:
           <li><i class='fas fa-chevron-right'></i> Defino nomes claros e significativos para variáveis, classes e métodos, garantindo <b>clareza e expressividade</b> no código;</li>
           <li><i class='fas fa-chevron-right'></i> Elimino código duplicado, removendo redundâncias e aplicando boas práticas de reutilização;</li>
           <li><i class='fas fa-chevron-right'></i> Organizo o código para evitar interfaces excessivamente grandes, criando <b>interfaces menores e específicas</b> (princípio de <b>Interface Segregation</b>);</li>
+          <li><i class='fas fa-chevron-right'></i> Ajusto os relacionamentos de herança para torná-los confiáveis e extensíveis, garantindo que uma classe base sempre possa ser substituída pela sua classe derivada (princípio de Liskov Substitution);</li>
           <li><i class='fas fa-chevron-right'></i> Aplico estilo e formatação consistentes com as diretrizes de estilo oficiais do C#, garantindo <b>clareza e legibilidade</b> em toda a base de código;</li>
           <li><i class='fas fa-chevron-right'></i> Implemento Programação Defensiva com <b>Guard Clauses</b> e <b>Fail Fast</b>, prevenindo erros em tempo de execução e acelerando a identificação de falhas;</li>
           <li><i class='fas fa-chevron-right'></i> Substituo código ad-hoc por soluções baseadas em <b>Design Patterns</b> e <b>Design Principles</b>;</li>
